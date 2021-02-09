@@ -11,10 +11,16 @@
  */
 public class BinarySearch {
 	public static void test() {
-		System.out.println("BinarySearch test begin ...");
-		int[] testData = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+		System.out.println("BinarySearch with no recursion test begin ...");
+		int[] testData = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
 		int out = BinarySearch.binarySearch(testData, 2);
 		System.out.println("out index : " + out + " ,data:" + testData[out]);
+		System.out.println("----------------------");
+		System.out.println("BinarySearch with recursion test begin ...");
+		int outRecursion = BinarySearch.binarySearchRecursion(testData, 0, testData.length, 11);
+		System.out.println("out index : " + outRecursion + " ,data:" + testData[outRecursion]);
+		System.out.println("----------------------");
+		System.out.println("BinarySearch test end ...");
 
 	}
 
@@ -43,5 +49,26 @@ public class BinarySearch {
 			// 未找到这个值
 		return -1;
 	} // binarySearch end
+
+	public static int binarySearchRecursion(int[] nums, int left, int right, int target) {
+		if (left <= right) {
+			// 目的:防止溢出
+			int mid = left + (right - left) / 2;
+
+			if (nums[mid] == target) {
+				return mid;
+			}
+
+			if (nums[mid] < target) {
+				// 目标值在右边,向右递归
+				return binarySearchRecursion(nums, mid + 1, right, target);
+			} else if (nums[mid] > target) {
+				// 目标值在左边,向左递归
+				return binarySearchRecursion(nums, left, mid - 1, target);
+			}
+		}
+
+		return -1;
+	}
 
 }
