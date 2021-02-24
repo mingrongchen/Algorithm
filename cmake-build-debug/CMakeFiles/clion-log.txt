@@ -1,4 +1,4 @@
-E:\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\CLionProject\algorithm-c
+E:\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" F:\Git_Remote\Github\algorithm-c
 -- The C compiler identification is GNU 7.3.0
 -- Check for working C compiler: E:/MinGW/bin/gcc.exe
 -- Check for working C compiler: E:/MinGW/bin/gcc.exe -- works
@@ -8,4 +8,4 @@ E:\CLion\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - M
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: E:/CLionProject/algorithm-c/cmake-build-debug
+-- Build files have been written to: F:/Git_Remote/Github/algorithm-c/cmake-build-debug
