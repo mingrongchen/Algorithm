@@ -36,8 +36,31 @@ static void CreateListHead (LinkList *L, int n) {
     (*L)->next = NULL;    // 建立一个带头节点的单链表
 
     for (i = 0; i < n; i++) {
-        
+        p = (LinkList) malloc(sizeof(Node));    // 生成新节点
+        p->data = rand() % 100 + 1;    // 随机生成100以内的数字
+
+        p->next = (*L)->next;
+        (*L)->next = p;    // 插入到表头
     }
+}
+
+static void CreateListTail (LinkList *L, int n) {
+    LinkList p, r;
+    int i;
+    srand(time(0));    // 初始化随机数种子
+
+    *L = (LinkList) malloc(sizeof(Node));    // 为整个线性表
+    r = *L;    // r为指向尾部的节点
+
+    for (i = 0; i < n; i++) {
+        p = (LinkList) malloc(sizeof(Node));    // 生成新结点
+        p ->data = rand() % 100 + 1;    // 随机生成100以内的数字
+
+        r->next =p;    // 将表尾终端节点的指针指向新节点
+        r = p;    // 将当前的新节点定义为表尾终端节点
+    } // end
+
+    r->next = NULL;    // 表示当前链表结束
 }
 
 
@@ -129,5 +152,22 @@ static Status ListDelete (LinkList *L, int i, ElemType *e) {
 
     free(q);    // 让系统回收此节点，并释放内存
 
+    return OK;
+}
+
+/*
+ * 顺序线性表L已存在，操作结果，将L重置为空表
+ */
+static Status ClearList (LinkList *L) {
+    LinkList p, q;    // 每次释放当前指针，需要找到当前指针的下一个位置，然后重复操作释放
+    p = (*L)->next;    // p指向第一个节点
+
+    while (p) {
+        q = p->next;
+        free(p);
+        p = q;
+    }
+
+    (*L)->next = NULL;    // 头节点指针域为空
     return OK;
 }
