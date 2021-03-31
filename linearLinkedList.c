@@ -44,6 +44,27 @@ static void CreateListHead (LinkList *L, int n) {
     }
 }
 
+/*
+ * 随机产生n个元素的值，建立带表头节点的单链线性表L（头插法）
+ */
+static void CreateListHead2 (LinkList L, int n) {
+    LinkList p;
+    int i;
+
+    srand(time(0));    // 初始化随机数种子
+
+    L = (LinkList) malloc(sizeof(Node));
+    (L)->next = NULL;    // 建立一个带头节点的单链表
+
+    for (i = 0; i < n; i++) {
+        p = (LinkList) malloc(sizeof(Node));    // 生成新节点
+        p->data = rand() % 100 + 1;    // 随机生成100以内的数字
+
+        p->next = (L)->next;
+        (L)->next = p;    // 插入到表头
+    }
+}
+
 static void CreateListTail (LinkList *L, int n) {
     LinkList p, r;
     int i;
@@ -128,6 +149,41 @@ static Status ListInsert(LinkList *L, int i, ElemType e) {
 }
 
 /*
+ * 在线性链表L中第i个位置之前插入新的数据元素e，L的长度加1
+ */
+static Status ListInsert2 (LinkList L, int i, ElemType e) {
+    int j;
+    LinkList p, s;    // 节点指针，p代表待插入节点的前驱指针, s代表待插入节点指针
+
+    p = L;    // p指向链表头，而非链表第一个节点
+    j = 1;
+
+    // 寻找第i个节点
+    while (p && j < i) {
+        p = p->next;
+        ++j;    // 若找到，则j等于i的值，p从头节点开始，则p代表第i-1个节点的指针
+    }
+
+    // 第i个元素不存在，返回错误
+    if (!p || j > i) {
+        return ERROR;
+    }
+
+    // 找到插入i节点的位置后，生成新的节点
+    s = (LinkList) malloc(sizeof(Node));
+    s->data = e;
+    /*
+     * p指向第i-1个位置
+     * 将p的后继i，放入s之后，则变成后继i+1
+     * 将s放入p之后，变成后继i
+     */
+    s->next = p->next;    // 将p的后继节点赋值给s的后继
+    p->next = s;    // 将s赋值给p的后继
+
+    return OK;
+}
+
+/*
  * 删除线性表L中第i个节点，并用e返回其值，L的长度减一
  */
 static Status ListDelete (LinkList *L, int i, ElemType *e) {
@@ -159,6 +215,9 @@ static Status ListDelete (LinkList *L, int i, ElemType *e) {
  * 顺序线性表L已存在，操作结果，将L重置为空表
  */
 static Status ClearList (LinkList *L) {
+    printf("ClearList addr *L: %x ...\n", *L);
+    printf("ClearList addr L: %x ...\n", L);
+    printf("ClearList addr &L: %x ...\n", &L);
     LinkList p, q;    // 每次释放当前指针，需要找到当前指针的下一个位置，然后重复操作释放
     p = (*L)->next;    // p指向第一个节点
 
@@ -170,4 +229,75 @@ static Status ClearList (LinkList *L) {
 
     (*L)->next = NULL;    // 头节点指针域为空
     return OK;
+}
+
+static Status ClearList2 (LinkList L) {
+    printf("ClearList2 addr *L: %x ...\n", *L);
+    printf("ClearList2 addr L: %x ...\n", L);
+    printf("ClearList2 addr &L: %x ...\n", &L);
+
+    LinkList p, q;    // 每次释放当前指针，需要找到当前指针的下一个位置，然后重复操作释放
+    p = (L)->next;    // p指向第一个节点
+
+    while (p) {
+        q = p->next;
+        free(p);
+        p = q;
+    }
+
+    (L)->next = NULL;    // 头节点指针域为空
+    return OK;
+}
+
+/*
+ * 打印链表
+ */
+static void PrintList (LinkList L) {
+    if (L == NULL) {
+        printf("PrintList LinkList is empty ...\n");
+        return;
+    }
+    printf("PrintList addr P: %x ...\n", L);
+    printf("PrintList addr &P: %x ...\n", &L);
+
+    int i = 0;
+    LinkList p;
+    p = (L)->next;    // p指向第一个节点
+    printf("PrintList addr P->next: %x ...\n", (L)->next);
+    printf("PrintList addr &(P->next): %x ...\n", &(L->next));
+    while (p) {
+        printf("PrintList index %d, data is %d ...\n", i, p->data);
+        p = p->next;
+        i++;
+    }
+
+    if (i == 0) {
+        printf("PrintList LinkList is empty ...\n");
+    }
+}
+
+static void linearLinkedTest () {
+    printf("linearLinkedTest start ...\n");
+    LinkList P = NULL;
+    CreateListHead(&P, 2);
+
+    printf("main addr P: %x ...\n", P);
+    printf("main addr &P: %x ...\n", &P);
+
+    printf("main addr P->next: %x ...\n", P->next);
+    printf("main addr &(P->next): %x ...\n", &(P->next));
+
+    PrintList(P);
+//    ListInsert(&P,1,10);
+    ListInsert2(P,1,10);
+    printf("ListInsert2 end ...\n");
+    PrintList(P);
+
+//    ClearList2(P);
+//    ClearList(&P);
+//    printf("ClearList2 end ...\n");
+//    PrintList(P);
+
+    printf("linearLinkedTest end ...\n");
+
 }
