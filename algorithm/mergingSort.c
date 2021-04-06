@@ -6,6 +6,9 @@
 static void MSort (int [], int [], int ,int);
 static void Merge (int [], int [], int , int, int);
 
+// 非递归
+static void MergePass (int [],int [], int, int);
+
 /*
  * 归并排序 ★★★★★
  * 初始序列有n个记录，可以看成n个有序的子序列，每个子序列长度为1
@@ -72,6 +75,42 @@ static void Merge (int SR[], int TR[], int i, int m, int n) {
  * 迭代调用
  * 对顺序表L做归并非递归排序
  */
+static void MergeSort2 (SqList *L) {
+    int *TR = (int*) malloc(L->length * sizeof(int));    // 申请额外空间
+    int k = 1;
+    while (k < L->length) {
+        MergePass(L->r, TR, k, L->length);
+        k *= 2;    // 子序列长度加倍
+
+        MergePass(TR, L->r, k, L->length);
+        k *= 2;    // 子序列长度加倍
+    }
+}
+
+/*
+ * 将SR[]中相邻长度为s的子序列两两归并到TR[]
+ */
+static void MergePass (int SR[],int TR[], int s, int n) {
+    int i = 1;
+    int j;
+
+    while (i <= n - 2 * s + 1) {
+        Merge(SR, TR, i, i + s - 1, i + 2 * s -1);    // 根据s作为间隔，两两归并
+        i += 2 * s;
+    }
+
+    // 归并最后两个序列，特殊处理
+    if (i < n - s + 1) {
+        Merge(SR, TR, i, i + s - 1, n);
+    } else {
+        // 若只剩下单个子序列
+        for (j = i; j <= n; j++) {
+            TR[j] = SR[j];
+        }
+    }
+}
+
+
 
 static void merge_sort_test () {
     printf("merge_sort_test begin ...\n");
@@ -79,7 +118,7 @@ static void merge_sort_test () {
     gennerateRandData(&testData);
     printf("gennerateRandData after ...\n");
     printData(testData);
-    MergeSort(&testData);
+    MergeSort2(&testData);
     printf("MergeSort after ...\n");
     printData(testData);
 
