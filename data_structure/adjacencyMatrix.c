@@ -61,6 +61,7 @@ Boolean visited[MAX];    // 访问标志的数组
 /*
  * 邻接矩阵的深度优先递归算法
  * 类似树的前序遍历
+ * 使用算法：回溯法
  */
 static void DFS(MGraph G, int i) {
     int j;
@@ -220,7 +221,7 @@ static int Find(int *parent, int f) {
 static void MiniSpanTree_Kruskal (MGraph G) {
     int i ,n ,m;
     Edge edges[MAXVEX];    // 定义边集数组
-    int parent[MAXVEX];    // 定义一数组来判断边与边是否形成环路
+    int parent[MAXVEX];    // 定义一数组来判断边与边是否形成环路，并查集
     // 此处省略将邻接矩阵G转化为边集数组edges并按权由小到大排序的代码
 
     for (i = 0; i < G.numVertexes; i++) {
@@ -245,19 +246,21 @@ static void MiniSpanTree_Kruskal (MGraph G) {
 } //MiniSpanTree_Kruscal end
 
 
-typedef int PathArc[MAXVEX];    // 用于存储最短路径下标的数组
+typedef int PathArc[MAXVEX];    // 用于存储最短路径下标的数组，表示最短路径前驱，例v0->v1->v3则存储为1
 typedef int ShortPathTable[MAXVEX];    // 用于存储到各点最短路径的权值和
 
 /*
  * Dijkstra算法，求有向网G的v0顶点到其余顶点v最短路径P[v]及带权长度D[v]
  * P[v]的值为前驱顶点下标，D[v]表示v0到v最短路径长度和
  * 时间复杂度为n的三次方
+ *
+ * 使用算法：贪心算法。
  */
 
 static void ShortestPath_Dijkstra (MGraph G, int v0, PathArc *P, ShortPathTable *D) {
     int v, w, k, min;
 
-    int final[MAXVEX];    // final[w]=1表示求得顶点v0至vw的最短路径
+    int final[MAXVEX];    // final[w]=1表示求得顶点v0至vw的最短路径，设置为1标记找到
 
     // 初始化数据
     for (v = 0; v < G.numVertexes; v++) {
@@ -269,29 +272,30 @@ static void ShortestPath_Dijkstra (MGraph G, int v0, PathArc *P, ShortPathTable 
     (*D)[v0] = 0;    // v0至v0的路径为0
     final[v0] = 1;    // v0至v0不需要求路径
 
-    // 开始主循环，每次求得v0到某个v顶点的最短路径
+    // 开始主循环，每次求得v0到某个v顶点的最短路径，因此v从1开始而不是从0开始
     for (v = 1; v < G.numVertexes; v++) {
         min = MYINFINITY;    // 当前所知离v0顶点的最近距离
 
-        // 寻找离v0最近的顶点
+
+        // 遍历该顶点所有边连接顶点距离，寻找离起点v0最近的顶点
         for (w = 0; w < G.numVertexes; w++) {
             if (!final[w] && (*D)[w] < min) {
-                k = w;
-                min = (*D)[w];    // w顶点离v0顶点更近
+                k = w;    // 找到w顶点
+                min = (*D)[w];    // w顶点离起点v0顶点更近
             }
         }
 
-        final[k] = 1;    // 将目前找到的最近的顶点置为1
+        final[k] = 1;    // 将目前找到的最近的顶点置为1，加入最短路径
 
-        // 修正当前最短路径及距离
+        // 更新当前节点连接节点的，最短路径及距离，关键★★★
         for (w = 0; w < G.numVertexes; w++) {
             /*
              * 如果经过v顶点的路径比现在这条路径的长度短的话
              * 说明找到了更短路径，修改D[w]和P[w]
              */
             if (!final[w] && (min + G.arc[k][w] < (*D)[w])) {
-                (*D)[w] = min + G.arc[k][w];    // 修改当前路径长度
-                (*P)[w] = k;
+                (*D)[w] = min + G.arc[k][w];    // 修改当前最短路径长度
+                (*P)[w] = k;    // 修改当前最短路径前驱节点
             }
 
         } // for end
@@ -299,8 +303,8 @@ static void ShortestPath_Dijkstra (MGraph G, int v0, PathArc *P, ShortPathTable 
 } // ShortestPath_Dijkstra end
 
 
-typedef int FPathArc[MAXVEX][MAXVEX];    // 用于存储最短路径下标的数组
-typedef int FShortPathTable[MAXVEX][MAXVEX];    // 用于存储到各点最短路径的权值和
+typedef int FPathArc[MAXVEX][MAXVEX];    // 用于存储最短路径下标的数组，代表对应顶点的最小路径的前驱矩阵
+typedef int FShortPathTable[MAXVEX][MAXVEX];    // 用于存储到各点最短路径的权值和，代表顶点到顶点的最短路径权值和的矩阵
 
 /*
  * Floyd 算法，求网图G中各顶点v到其余顶点w最短路径P[v][w]及带权长度D[v][w]
@@ -316,6 +320,11 @@ static void ShortestPath_Floyd (MGraph G, FPathArc *P, FShortPathTable *D) {
         } // for end
     } // for end
 
+    /*
+     * k：代表中转顶点的下标，也就是所有顶点经过v(?)中转，计算是否有最短路径的变化
+     * v：代表起始顶点
+     * w: 代表结束顶点
+     */
     for (k = 0; k < G.numVertexes; k++) {
         for (v = 0; v < G.numVertexes; v++) {
             for (w = 0; w < G.numVertexes; w++) {
@@ -324,10 +333,36 @@ static void ShortestPath_Floyd (MGraph G, FPathArc *P, FShortPathTable *D) {
                  * 将当前两点间权值设为更小的一个
                  */
                 if ((*D)[v][w] > (*D)[v][k] + (*D)[k][w]) {
-                    (*D)[v][w] = (*D)[v][k] + (*D)[k][w];
+                    (*D)[v][w] = (*D)[v][k] + (*D)[k][w];    // 替换v->w的最短路径长度，经过k中转
                     (*P)[v][w] = (*P)[v][k];    // 路径设置经过下标为k的顶点
                 }
             } // for end
         } // for end
     } // for end
 } // ShortestPath_Floyd end
+
+/*
+ * 求最短路径显示代码如下，对
+ */
+
+static void show_floyd (MGraph G, FPathArc *P, FShortPathTable *D) {
+    int v, w, k;
+
+    for (v = 0; v < G.numVertexes; ++v) {
+        for (w = v + 1; w < G.numVertexes; w++) {
+            printf("v%d-v%d weight: %d ", v, w, D[v][w]);
+
+            k = P[v][w];    // 获得第一个路径顶点下标，例如v0->v1，则该k值为1
+            printf(" path : %d ", v);    // 打印源点
+
+            // 如果路径顶点下标不是终点
+            while (k != w) {
+                printf(" -> %d ", k);    // 打印路径顶点
+                k = P[k][w];    // 获得下一个路径顶点下标
+            } // while end
+
+            printf(" -> %d\n", w);    // 打印终点
+        } // for end
+        printf("\n");
+    } // for end
+}

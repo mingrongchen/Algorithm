@@ -164,6 +164,17 @@ static void BFSTraverse (GraphAdjList GL) {
 
 /*
  * 拓扑排序，若GL无回路，则输出拓扑排序序列并返回OK，若有回路返回ERROR
+ *
+ * 解决的问题：工程是否顺利进行
+ *
+ * AOV网(Activity On Vertex Network)：表示工程的有向图中，顶点表示活动，
+ * 用弧表示活动之间的优先关系，这样的有向图为顶点表示活动的网。
+ *
+ * 拓扑序列：有向图G=(V,E)，满足从vi到vj一条路径，则在顶点序列中顶点vi必须在vj之前。
+ *
+ * 使用数据结构：栈
+ *
+ * 时间复杂度：O(n+e)，e表示入度减一操作的次数
  */
 static int TopologicalSort (GraphAdjList GL) {
     EdgeNode *e;
@@ -205,8 +216,24 @@ static int TopologicalSort (GraphAdjList GL) {
 } // TopologicalSort end
 
 /*
- * 拓扑排序，用于关键路径计算
+ * 拓扑排序，用于关键路径计算，关键路径长度（从源点到汇点具有最大长度的路径）
  * 若GL无回路，则输出拓扑排序序列并返回OK，若有回路返回ERROR
+ *
+ * 解决的问题：工程是否顺利进行，还要解决工程完成需要的最短时间问题
+ *
+ * AOE网(Activity On Edge Network):表示工程的带权有向图中，顶点表示事件，有向边表示活动，
+ * 边上权重表示活动持续时间，这种网图称为AOE网
+ *
+ * 源点(始点)：没有入边，汇点(终点）：没有出边。一个工程只有一个源点一个汇点。
+ *
+ * 概念：找到所有活动最早开始时间和最晚开始时间，如果相等则为关键活动，活动间的路径为关键路径。
+ * 1、节点事件最早发生时间etv(earliest time of vertex)：顶点vk最早发生的时间
+ * 2、节点事件最晚发生时间ltv(latest time of vertex)：顶点vk最晚发生时间，也就是最晚需要开始的时间，
+ * 超出则会延误整个工期。
+ * 3、活动最早开工时间ete(earliest time of edge)：即弧ak的最早发生时间
+ * 4、活动最晚开工时间lte(lastest time of edge)：即弧ak最晚发生时间，就是不推迟工期的最晚开工时间
+ * 备注：由1和2可以求得3和4，然后根据ete[k]是否与lte[k]相等来判断ak是否是关键活动。
+ *
  */
 int *etv, *ltv;    // 事件最早发生时间和最迟发生时间数组
 int *stack2;    // 用于存储拓扑序列的栈
@@ -227,6 +254,7 @@ static int TopologicalSort_Two (GraphAdjList GL) {
         }
     } // for end
 
+    /*--------------start------------------*/
     top2 = 0;    // 初始化为0
     etv = (int *) malloc(GL->numVertexes * sizeof(int));    // 事件最早发生时间
 
@@ -235,12 +263,15 @@ static int TopologicalSort_Two (GraphAdjList GL) {
     }
 
     stack2 = (int *) malloc(GL->numVertexes * sizeof(int));    // 初始化
+    /*---------------end-----------------*/
 
     while (top != 0) {
         gettop = stack[top--];    // 出栈
 //        printf("%d -> ", GL->adjList[gettop].data);    // 打印此顶点
         count++;    // 统计输出顶点数
+        /*------------start--------------------*/
         stack2[++top2] = gettop;    // 将弹出的顶点序号压入拓扑序列的栈
+        /*-------------end-------------------*/
 
         // 对此顶点弧表遍历
         for (e = GL->adjList[gettop].firstedge; e; e = e->next) {
@@ -251,10 +282,12 @@ static int TopologicalSort_Two (GraphAdjList GL) {
                 stack[++top] = k;
             }
 
+            /*--------------start------------------*/
             // 求各顶点事件最早发生时间值
             if ((etv[gettop] + e->weight) > etv[k]) {
                 etv[k] = etv[gettop] + e->weight;
             }
+            /*---------------end-----------------*/
 
         } // for end
     } // while end
@@ -310,8 +343,5 @@ static void CriticalPath (GraphAdjList GL) {
 
         }
     }
-
-
-
 }
 
