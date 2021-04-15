@@ -1,6 +1,9 @@
 #include <iostream>
+#include "STL_Test/dequeTest.cpp"
+
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    test();
     return 0;
 }
