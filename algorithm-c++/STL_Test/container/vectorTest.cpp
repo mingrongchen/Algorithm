@@ -1,7 +1,9 @@
 //
 // Created by MingR on 2021/4/14.
 //
-
+/**
+ * https://en.cppreference.com/w/cpp/container/vector
+ */
 #include <iostream>
 #include <vector>
 
@@ -15,7 +17,7 @@ typedef struct info {
 
 static void changeVector(vector<Info>&);
 static void test();
-
+static void test2();
 
 static void test() {
     vector<Info> mInfo;
@@ -60,6 +62,19 @@ static void test() {
     if (copyInfo.empty()) {
         cout << "copyInfo is empty ..." << endl;
     }
+}
+
+static void test2() {
+    vector<int> mTest(10);
+
+    mTest.insert(mTest.begin(), 100);
+    mTest.insert(mTest.begin() + 1, 200);
+    mTest.insert(mTest.begin() + 2, 300);
+
+    for (auto item = mTest.begin(); item != mTest.end(); ++item) {
+        cout << "item data : " << *item << endl;
+    }
+
 }
 
 
