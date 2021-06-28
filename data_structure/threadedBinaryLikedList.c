@@ -51,6 +51,26 @@ static void InThreading (BiThrTree p) {
     }
 }
 
+static void MyInThreading (BiThrTree p) {
+    if (p) {
+        MyInThreading(p->lchild);
+
+        if (!p->lchild) {
+            p->LTag = Thread;
+            p->lchild = pre;
+        }
+
+        if (!pre->rchild) {
+            pre->RTag = Thread;
+            pre->rchild = p;
+        }
+
+        pre = p;
+
+        MyInThreading(p->rchild);
+    }
+}
+
 /*
  * T指向头节点，头结点左链lchild指向根节点，头结点右链rchild指向中序遍历的最后一个节点
  * 中旭遍历二叉线索链表表示的二叉树T

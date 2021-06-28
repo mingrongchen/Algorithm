@@ -144,12 +144,13 @@ static void BFSTraverse (MGraph G) {
  * Prim算法生成最小生成树
  * 以顶点为起点
  * 时间复杂度n的平方
+ * 动态规划算法
  */
 static void MiniSpanTree_Prim(MGraph G) {
     int min, i, j, k;
 
-    int adjvex[MAXVEX];    // 保存相关顶点下标
-    int lowcost[MAXVEX];    // 保存相关顶点间边的权值
+    int adjvex[MAXVEX];    // 保存与i顶点相邻边的顶点序号
+    int lowcost[MAXVEX];    // 表示最小生成树的边，保存相关顶点间边的权值，不断更新，当前节点到树的距离
 
     /*
      * 初始化第一个权值为0，即v0加入生成树
@@ -159,7 +160,7 @@ static void MiniSpanTree_Prim(MGraph G) {
     adjvex[0] = 0;    // 初始化第一个顶点下标为0
 
     // 循环除下标为0外的全部顶点
-    for (i = 0; i < G.numVertexes; i++) {
+    for (i = 1; i < G.numVertexes; i++) {
         lowcost[i] = G.arc[0][i];    // 将v0顶点与之有边的权值存入数组
         adjvex[i] = 0;    // 初始化都为v0的下标
     }
@@ -168,8 +169,8 @@ static void MiniSpanTree_Prim(MGraph G) {
     for (int i = 1; i < G.numVertexes; i++) {
         min = MYINFINITY;    // 初始化最小权值为∞
 
-        j = 1;
-        k = 0;
+        j = 1;    // 顶点下标循环的变量
+        k = 0;    // 存储最小权值顶点的下标
 
         // 循环全部顶点
         while (j < G.numVertexes) {
@@ -202,6 +203,8 @@ static void MiniSpanTree_Prim(MGraph G) {
  * 时间复杂度eloge
  */
 
+#define MAXEDGE 20    // 最大边集数
+
 // 边集数组Edge结构定义
 typedef struct {
     int begin;
@@ -220,16 +223,16 @@ static int Find(int *parent, int f) {
 // Kruscal算法最小生成树
 static void MiniSpanTree_Kruskal (MGraph G) {
     int i ,n ,m;
-    Edge edges[MAXVEX];    // 定义边集数组
+    Edge edges[MAXEDGE];    // 定义边集数组
     int parent[MAXVEX];    // 定义一数组来判断边与边是否形成环路，并查集
     // 此处省略将邻接矩阵G转化为边集数组edges并按权由小到大排序的代码
 
     for (i = 0; i < G.numVertexes; i++) {
-        parent[i] = 0;
+        parent[i] = 0;    // 根节点为0，设置其他节点的根节点为0
     }
 
-    // 循环每一条边
-    for (i = 0; i < G.numVertexes; i++) {
+    // 循环每一条边, 边数numEdge
+    for (i = 0; i < G.numEdges; i++) {
         n = Find(parent, edges[i].begin);
         m = Find(parent, edges[i].end);
 
