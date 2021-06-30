@@ -77,8 +77,8 @@ static void BFSTraverse(MGraph G) {
             visited[i] = TRUE;    // 当前节点设置为已访问
 
             printf("%c ", G.vertexes[i]);    // 打印节点
-
             EnQueue(&Q, i);    // 将该节点入队列
+
             // 当前队列不为空时
             while(!QueueEmpty(Q)) {
                 DeQueue(&Q, &i);    // 队列出队，将队列头节点赋值给i
@@ -211,6 +211,110 @@ static void MiniSpanTree_kruskal(MGraph G) {
         if (n != m) {    // 说明没有环路，将此边结尾顶点放入下标为起点的parent中
             parents[n] = m;
             printf("(%d, %d) %d ", edges[i].begin, edges[i].end, edges[i].weight);
+        }
+    }
+}
+
+typedef int PathMatrix[MAXVEX];    // 存储最短路径下标的数组
+typedef int ShortPathTable[MAXVEX];    // 存储到各点最短路径权值和
+
+/**
+ * 迪杰斯特拉最短路径算法
+ * @param G
+ */
+static void ShortestPath_Dijkstra(MGraph G, int v0, PathMatrix *P, ShortPathTable *D) {
+    int v,w,k,min;
+    int final[MAXVEX];    // 值为1表示求得v0到vw的最短路径
+
+
+    // 初始化
+    for (v = 0; v < G.numVertexes; v++) {
+        final[v] = 0;
+        (*P)[v] = 0;
+        (*D)[v] = G.arcs[v0][v];
+    }
+
+    final[v0] = 1;
+    (*D)[v0] = 0;
+
+    // 开始主循环
+    for (v = 1; v < G.numVertexes; v++) {
+        min = INFINITY;
+
+        k = 0;
+        // 寻找最小边的节点
+        for (w = 0; w < G.numVertexes; w++) {
+            if (!final[w] && (*D)[w] < min) {
+                k = w;
+                min = (*D)[w];
+            }
+        }
+
+        final[k] = 1;
+
+        for (w = 0; w < G.numVertexes; w++) {
+            // 如果经过v顶点的路径比现在这条路径短的话就更新路径
+            if (!final[w] && ((min + G.arcs[k][w]) < (*D)[w]) {
+                // 找到更短的路径，修改D[w]和P[w]
+                (*D)[w] = (*D)[k] + G.arcs[k][w];
+                (*p)[w] = k;
+            }
+        }
+    }
+}
+
+
+typedef int FPathMatrix[MAXVEX][MAXVEX];    // 节点前驱
+typedef int FShortPathTable[MAXVEX][MAXVEX];    // 最短路径
+
+/**
+ * 弗洛伊德最短路径算法，利用矩阵运算
+ * @param G
+ * @param P
+ * @param D
+ */
+static void ShortestPaht_Ployd(MGraph G,FPathMatrix *P, FShortPathTable *D) {
+    int v, w, k;
+
+    // 初始化D与P
+    for (v = 0; v < G.numVertexes; v++) {
+        for (w = 0; w < G.numVertexes; w++) {
+            (*P)[v][w] = w;    // 初始化P
+            (*D)[v][w] = G.arcs[v][w];    // 对应点间权值
+        }
+    }
+
+    for (k = 0; k < G.numVertexes; k++) {
+        for (v = 0; v < G.numVertexes; v++) {
+            for (w = 0; w < G.numVertexes; w++) {
+                // 如果经过下标k顶点路径比原两点路径更短，则将两点间权值设置为更小
+                if ((*D)[v][w] > (*D)[v][k] + (*D)[k][w]) {
+                    (*D)[v][w] = (*D)[v][k] + (*D)[k][w];
+                    (*P)[v][w] = (*P)[v][k];
+                }
+            }
+        }
+    }
+}
+
+
+static void showFloyd(MGraph G, FPathMatrix *P, FShortPathTable *D) {
+    int v, w, k;
+
+    for (v = 0; v < G.numVertexes; v++) {
+        for (w = 0; w < G.numVertexes; w++) {
+
+            printf(v, w, D[v][w]);
+
+            k = P[v][w];    // 获得第一个路径顶点下标
+            printf(v);     // 打印原点
+
+            // 如果路径顶点不是终点
+            while (k != w) {
+                printf(k);
+                k = (*P)[v][k];
+            }
+            printf(w);    // 打印终点
         }
     }
 }

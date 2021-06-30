@@ -40,7 +40,7 @@ static void BubbleSort (SqList *L) {
 static void BubbleSort2 (SqList *L) {
     int i, j;
     Status flag = TRUE;
-    for (i = 1; i <= L->length && TRUE; i++) {
+    for (i = 1; i <= L->length && flag; i++) {
         flag = FALSE;
         for (j = L->length; j > i; j--) {
             if (L->r[j] < L->r[j - 1]) {

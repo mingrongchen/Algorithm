@@ -158,7 +158,7 @@ static Status ListInsert2 (LinkList L, int i, ElemType e) {
     p = L;    // p指向链表头，而非链表第一个节点
     j = 1;
 
-    // 寻找第i个节点
+    // 寻找第i-1个节点
     while (p && j < i) {
         p = p->next;
         ++j;    // 若找到，则j等于i的值，p从头节点开始，则p代表第i-1个节点的指针

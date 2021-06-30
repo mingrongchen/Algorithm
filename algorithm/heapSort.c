@@ -62,8 +62,8 @@ static void HeapAdjust(SqList *L, int s, int m) {
             break;
         }
 
-        L->r[s] = L->r[j];
-        s = j;
+        L->r[s] = L->r[j];    // 当前根节点跟最大子节点的值交换，变为大顶堆
+        s = j;    // 记录子节点位置
     } // for end
 
     L->r[s] = temp;    // 插入

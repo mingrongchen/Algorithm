@@ -172,7 +172,7 @@ static void BFSTraverse (GraphAdjList GL) {
  *
  * 拓扑序列：有向图G=(V,E)，满足从vi到vj一条路径，则在顶点序列中顶点vi必须在vj之前。
  *
- * 使用数据结构：栈
+ * 使用数据结构：栈或者队列
  *
  * 时间复杂度：O(n+e)，e表示入度减一操作的次数
  */

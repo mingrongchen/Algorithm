@@ -144,13 +144,14 @@ static void BFSTraverse (MGraph G) {
  * Prim算法生成最小生成树
  * 以顶点为起点
  * 时间复杂度n的平方
+ * 适用于稠密图，操作顶点
  * 动态规划算法
  */
 static void MiniSpanTree_Prim(MGraph G) {
     int min, i, j, k;
 
     int adjvex[MAXVEX];    // 保存与i顶点相邻边的顶点序号
-    int lowcost[MAXVEX];    // 表示最小生成树的边，保存相关顶点间边的权值，不断更新，当前节点到树的距离
+    int lowcost[MAXVEX];    // 表示最小生成树的边，保存相关顶点间边的权值，不断更新，当前节点到树的距离，记录当前生成树到剩余顶点的最小权值
 
     /*
      * 初始化第一个权值为0，即v0加入生成树
@@ -165,16 +166,16 @@ static void MiniSpanTree_Prim(MGraph G) {
         adjvex[i] = 0;    // 初始化都为v0的下标
     }
 
-    // 构造最小生成树过程
+    // 算法核心，构造最小生成树过程，只需要循环N-1次，N为顶点数
     for (int i = 1; i < G.numVertexes; i++) {
         min = MYINFINITY;    // 初始化最小权值为∞
 
         j = 1;    // 顶点下标循环的变量
         k = 0;    // 存储最小权值顶点的下标
 
-        // 循环全部顶点
+        // 找出lowcost最小的，最小权值赋值给min，下标赋值给k
         while (j < G.numVertexes) {
-            // 如果权值不为0（顶点不参与查找）且权值小于min
+            // 如果权值不为0（顶点不参与查找）且权值小于min，不在生成树中，且权值更小的
             if (lowcost[j] != 0 && lowcost[j] < min) {
                 min = lowcost[j];    // 则让当前权值成为最小值
                 k = j;    // 将当前最小值的下标存入k
@@ -183,14 +184,14 @@ static void MiniSpanTree_Prim(MGraph G) {
         }
 
         printf("(%d, %d)", adjvex[k], k);    // 打印当前顶点边中最小边
-        lowcost[k] = 0;    // 将当前顶点的权值设置为0, 表示此顶点已经完成任务
+        lowcost[k] = 0;    // 将当前顶点加入生成树，并设置该顶点距离权值设置为0, 表示此顶点已经完成任务
 
-        // 循环所有顶点
+        // 生成树改变，加入了新的顶点，从下标为1的顶点开始更新lowcost数组
         for (j = 1; j < G.numVertexes; j++) {
-            // 若下标为k的顶点各边权值小于此前这些顶点未被加入生成树权值
+            // 若下标为k的顶点各边权值小于此前这些顶点未被加入生成树权值，如果新加入树的顶点k使得生成树到各个顶点权值变小
             if (lowcost[j] != 0 && G.arc[k][j] < lowcost[j]) {
-                lowcost[j] = G.arc[k][j];    // 将较小权值存入lowcost
-                adjvex[j] = k;    // 将下标为k的顶点存入adjvex
+                lowcost[j] = G.arc[k][j];    // 将较小权值存入lowcost，更新更小的权值
+                adjvex[j] = k;    // 将下标为k的顶点存入adjvex，修改这条边邻接的顶点，也就是表示这条边是从选出的顶点k借过来的
             }
         } // for end
     } // for end
@@ -207,34 +208,37 @@ static void MiniSpanTree_Prim(MGraph G) {
 
 // 边集数组Edge结构定义
 typedef struct {
+    // 边的两个顶点
     int begin;
     int end;
-    int weight;
+    int weight;    // 边的权值
 } Edge;
 
 // 查找连线顶点的尾部下标
 static int Find(int *parent, int f) {
+    // 循环向上寻找下标为f顶点的根
     while (parent[f] > 0) {
         f = parent[f];
     }
+    // 找到了根的下标
     return f;
 }
 
-// Kruscal算法最小生成树
+// Kruscal算法最小生成树，适用于稀疏图，操作边
 static void MiniSpanTree_Kruskal (MGraph G) {
     int i ,n ,m;
     Edge edges[MAXEDGE];    // 定义边集数组
     int parent[MAXVEX];    // 定义一数组来判断边与边是否形成环路，并查集
     // 此处省略将邻接矩阵G转化为边集数组edges并按权由小到大排序的代码
-
+    // sort(edges);    // 按照权值由小到大对边进行排序
     for (i = 0; i < G.numVertexes; i++) {
         parent[i] = 0;    // 根节点为0，设置其他节点的根节点为0
     }
 
     // 循环每一条边, 边数numEdge
     for (i = 0; i < G.numEdges; i++) {
-        n = Find(parent, edges[i].begin);
-        m = Find(parent, edges[i].end);
+        n = Find(parent, edges[i].begin);    // n是这条边的第一个顶点的根顶点所在下标
+        m = Find(parent, edges[i].end);    // m是这条边第二个根顶点所在下标
 
         // 假如n与m不等，说明此边没有与现有生成树形成环路
         if (n != m) {
@@ -263,7 +267,7 @@ typedef int ShortPathTable[MAXVEX];    // 用于存储到各点最短路径的�
 static void ShortestPath_Dijkstra (MGraph G, int v0, PathArc *P, ShortPathTable *D) {
     int v, w, k, min;
 
-    int final[MAXVEX];    // final[w]=1表示求得顶点v0至vw的最短路径，设置为1标记找到
+    int final[MAXVEX];    // 记录当前v0节点找到了到哪些顶点的最短路径，找到了对应值设置为1，没找到设置为0
 
     // 初始化数据
     for (v = 0; v < G.numVertexes; v++) {
@@ -272,16 +276,19 @@ static void ShortestPath_Dijkstra (MGraph G, int v0, PathArc *P, ShortPathTable 
         (*P)[v] = 0;    // 初始化路径数组P为0
     }
 
-    (*D)[v0] = 0;    // v0至v0的路径为0
+    (*D)[v0] = 0;    // v0至v0的路径为0， 源点到源点路径为0
     final[v0] = 1;    // v0至v0不需要求路径
 
     // 开始主循环，每次求得v0到某个v顶点的最短路径，因此v从1开始而不是从0开始
+    // 下面的循环中包含两部分作用：（1）内层第一个for循环是找到 到剩余顶点中距离最小的 顶点u 并把它加入最短路径
+    //（2）内层第二个for循环是由新加入的顶点u来判断是否找到了新的更短路径，如果有就更新，没有就不做任何操作
     for (v = 1; v < G.numVertexes; v++) {
         min = MYINFINITY;    // 当前所知离v0顶点的最近距离
 
 
         // 遍历该顶点所有边连接顶点距离，寻找离起点v0最近的顶点
         for (w = 0; w < G.numVertexes; w++) {
+            // 从剩余顶点中找到距离最小的顶点
             if (!final[w] && (*D)[w] < min) {
                 k = w;    // 找到w顶点
                 min = (*D)[w];    // w顶点离起点v0顶点更近
@@ -293,12 +300,14 @@ static void ShortestPath_Dijkstra (MGraph G, int v0, PathArc *P, ShortPathTable 
         // 更新当前节点连接节点的，最短路径及距离，关键★★★
         for (w = 0; w < G.numVertexes; w++) {
             /*
+             * 如果由新加入最短路径的顶点u到其它剩余顶点的距离变短了则
+             * 修改到剩余顶点的距离为最小值
              * 如果经过v顶点的路径比现在这条路径的长度短的话
              * 说明找到了更短路径，修改D[w]和P[w]
              */
             if (!final[w] && (min + G.arc[k][w] < (*D)[w])) {
                 (*D)[w] = min + G.arc[k][w];    // 修改当前最短路径长度
-                (*P)[w] = k;    // 修改当前最短路径前驱节点
+                (*P)[w] = k;    // 修改当前最短路径前驱节点，这条路径是由顶点u过来的
             }
 
         } // for end
@@ -334,6 +343,7 @@ static void ShortestPath_Floyd (MGraph G, FPathArc *P, FShortPathTable *D) {
                 /*
                  * 如果经过下标为k顶点路径比原两点间路径更短
                  * 将当前两点间权值设为更小的一个
+                 * 如果顶点v到顶点w的距离比顶点v经过顶点k到顶点w的距离长，则更新从顶点i到顶点j的距离为较小值，并且存储k表示路径经过顶点
                  */
                 if ((*D)[v][w] > (*D)[v][k] + (*D)[k][w]) {
                     (*D)[v][w] = (*D)[v][k] + (*D)[k][w];    // 替换v->w的最短路径长度，经过k中转

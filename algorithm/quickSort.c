@@ -37,6 +37,34 @@ static void QSort(SqList *L, int low, int high) {
 }
 
 /*
+ * 交换序列表中子表的记录，使枢轴记录到位，并返回其所在的位置
+ * 此时在它之前的记录均不大于它
+ */
+static int Partition (SqList *L, int low, int high) {
+    int privotkey;
+
+    privotkey = L->r[low];    // 用子表的第一个记录作为枢轴记录
+
+    // 从表的两端交替向中间扫描
+    while (low < high) {
+        // 找到比枢轴记录小的位置
+        while (low < high && L->r[high] >= privotkey) {
+            high--;
+        }
+        swap(L, low, high);    // 将比枢轴记录小的记录交换到低端
+
+        // 找到比枢轴记录大的位置
+        while (low < high && L->r[low] <= privotkey) {
+            low++;
+        }
+        swap(L, low, high);     // 将比枢轴记录大的记录交换到高端
+    } // while end
+
+    return low;    // 此时low 应该等于high
+}
+
+
+/*
  * 尾递归
  */
 static void QSort1 (SqList *L, int low, int high) {
