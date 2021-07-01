@@ -77,6 +77,30 @@ static void DFS(MGraph G, int i) {
     }
 }
 
+int father[MAXVEX];    // 父节点表
+/**
+ * 深度优先算法判断是否有环
+ * @param G
+ * @param i
+ */
+static void DFSCircle(MGraph G, int i) {
+    int j;
+    visited[i] = TRUE;
+
+    for (j = 0; j < G.numVertexes; j++) {
+        // 顶点i的邻接点
+        if (i != j && G.arc[i][j] != INFINITY) {
+            // 如果邻接点已被访问，且vj不是父节点，说明不是回溯回来的顶点，说明存在环（判断i不是v的父节点）
+            if (visited[j] == 1 && father[i] != j) {
+                // 存在环
+            } else {
+                father[j] = i;    // 更新该节点的父节点
+                DFS(G, j);
+            }
+        }
+    }
+}
+
 /*
  * 邻接矩阵的深度遍历操作
  */
