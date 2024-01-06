@@ -3,4 +3,4 @@ project(algorithm_c__)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(algorithm_c__ main.cpp)
+add_executable(algorithm_c__ main.cpp practice/practice.cpp practice/nqueens.cpp practice/sort.cpp)
