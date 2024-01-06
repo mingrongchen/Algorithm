@@ -9,9 +9,37 @@
  * @修改记录:
  * @版本: 1.0
  */
+
 public class Main {
+
+	static void sleepTask(int ms) {
+		try {
+			Thread.currentThread();
+			Thread.sleep(ms);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+			Thread.currentThread().interrupt();
+		}
+	}
+
 	public static void main(String[] args) {
 		System.out.println("Main begin ...");
-		MergeSort.test();
+		// MergeSort.test();
+
+		// for (int i = 0; i < 3; i++) {
+		// System.out.println("Main : " + i + " ,time : " +
+		// System.currentTimeMillis());
+		// sleepTask(2000);
+		// }
+
+		int test[] = new int[10];
+
+		if (test == null) {
+			System.out.println("test is null ...");
+		} else {
+			System.out.println("test is not null ...");
+		}
+		System.out.println("Main end ...");
+
 	}
 }
