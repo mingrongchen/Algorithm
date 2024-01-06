@@ -254,10 +254,10 @@ static void ShortestPath_Dijkstra(MGraph G, int v0, PathMatrix *P, ShortPathTabl
 
         for (w = 0; w < G.numVertexes; w++) {
             // 如果经过v顶点的路径比现在这条路径短的话就更新路径
-            if (!final[w] && ((min + G.arcs[k][w]) < (*D)[w]) {
+            if (!final[w] && ((min + G.arcs[k][w]) < (*D)[w]) ){
                 // 找到更短的路径，修改D[w]和P[w]
                 (*D)[w] = (*D)[k] + G.arcs[k][w];
-                (*p)[w] = k;
+                (*P)[w] = k;
             }
         }
     }

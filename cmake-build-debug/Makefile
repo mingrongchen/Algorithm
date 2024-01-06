@@ -122,6 +122,1086 @@ algorithm_c/fast:
 	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/build
 .PHONY : algorithm_c/fast
 
+Aha_Algorithm/2-1-queue.obj: Aha_Algorithm/2-1-queue.c.obj
+
+.PHONY : Aha_Algorithm/2-1-queue.obj
+
+# target to build an object file
+Aha_Algorithm/2-1-queue.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-1-queue.c.obj
+.PHONY : Aha_Algorithm/2-1-queue.c.obj
+
+Aha_Algorithm/2-1-queue.i: Aha_Algorithm/2-1-queue.c.i
+
+.PHONY : Aha_Algorithm/2-1-queue.i
+
+# target to preprocess a source file
+Aha_Algorithm/2-1-queue.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-1-queue.c.i
+.PHONY : Aha_Algorithm/2-1-queue.c.i
+
+Aha_Algorithm/2-1-queue.s: Aha_Algorithm/2-1-queue.c.s
+
+.PHONY : Aha_Algorithm/2-1-queue.s
+
+# target to generate assembly for a file
+Aha_Algorithm/2-1-queue.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-1-queue.c.s
+.PHONY : Aha_Algorithm/2-1-queue.c.s
+
+Aha_Algorithm/2-2-stack.obj: Aha_Algorithm/2-2-stack.c.obj
+
+.PHONY : Aha_Algorithm/2-2-stack.obj
+
+# target to build an object file
+Aha_Algorithm/2-2-stack.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-2-stack.c.obj
+.PHONY : Aha_Algorithm/2-2-stack.c.obj
+
+Aha_Algorithm/2-2-stack.i: Aha_Algorithm/2-2-stack.c.i
+
+.PHONY : Aha_Algorithm/2-2-stack.i
+
+# target to preprocess a source file
+Aha_Algorithm/2-2-stack.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-2-stack.c.i
+.PHONY : Aha_Algorithm/2-2-stack.c.i
+
+Aha_Algorithm/2-2-stack.s: Aha_Algorithm/2-2-stack.c.s
+
+.PHONY : Aha_Algorithm/2-2-stack.s
+
+# target to generate assembly for a file
+Aha_Algorithm/2-2-stack.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-2-stack.c.s
+.PHONY : Aha_Algorithm/2-2-stack.c.s
+
+Aha_Algorithm/2-3-QueueAndStack.obj: Aha_Algorithm/2-3-QueueAndStack.c.obj
+
+.PHONY : Aha_Algorithm/2-3-QueueAndStack.obj
+
+# target to build an object file
+Aha_Algorithm/2-3-QueueAndStack.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-3-QueueAndStack.c.obj
+.PHONY : Aha_Algorithm/2-3-QueueAndStack.c.obj
+
+Aha_Algorithm/2-3-QueueAndStack.i: Aha_Algorithm/2-3-QueueAndStack.c.i
+
+.PHONY : Aha_Algorithm/2-3-QueueAndStack.i
+
+# target to preprocess a source file
+Aha_Algorithm/2-3-QueueAndStack.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-3-QueueAndStack.c.i
+.PHONY : Aha_Algorithm/2-3-QueueAndStack.c.i
+
+Aha_Algorithm/2-3-QueueAndStack.s: Aha_Algorithm/2-3-QueueAndStack.c.s
+
+.PHONY : Aha_Algorithm/2-3-QueueAndStack.s
+
+# target to generate assembly for a file
+Aha_Algorithm/2-3-QueueAndStack.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-3-QueueAndStack.c.s
+.PHONY : Aha_Algorithm/2-3-QueueAndStack.c.s
+
+Aha_Algorithm/2-4-Link_List.obj: Aha_Algorithm/2-4-Link_List.c.obj
+
+.PHONY : Aha_Algorithm/2-4-Link_List.obj
+
+# target to build an object file
+Aha_Algorithm/2-4-Link_List.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-4-Link_List.c.obj
+.PHONY : Aha_Algorithm/2-4-Link_List.c.obj
+
+Aha_Algorithm/2-4-Link_List.i: Aha_Algorithm/2-4-Link_List.c.i
+
+.PHONY : Aha_Algorithm/2-4-Link_List.i
+
+# target to preprocess a source file
+Aha_Algorithm/2-4-Link_List.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-4-Link_List.c.i
+.PHONY : Aha_Algorithm/2-4-Link_List.c.i
+
+Aha_Algorithm/2-4-Link_List.s: Aha_Algorithm/2-4-Link_List.c.s
+
+.PHONY : Aha_Algorithm/2-4-Link_List.s
+
+# target to generate assembly for a file
+Aha_Algorithm/2-4-Link_List.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-4-Link_List.c.s
+.PHONY : Aha_Algorithm/2-4-Link_List.c.s
+
+Aha_Algorithm/2-5-Simulation_Link.obj: Aha_Algorithm/2-5-Simulation_Link.c.obj
+
+.PHONY : Aha_Algorithm/2-5-Simulation_Link.obj
+
+# target to build an object file
+Aha_Algorithm/2-5-Simulation_Link.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-5-Simulation_Link.c.obj
+.PHONY : Aha_Algorithm/2-5-Simulation_Link.c.obj
+
+Aha_Algorithm/2-5-Simulation_Link.i: Aha_Algorithm/2-5-Simulation_Link.c.i
+
+.PHONY : Aha_Algorithm/2-5-Simulation_Link.i
+
+# target to preprocess a source file
+Aha_Algorithm/2-5-Simulation_Link.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-5-Simulation_Link.c.i
+.PHONY : Aha_Algorithm/2-5-Simulation_Link.c.i
+
+Aha_Algorithm/2-5-Simulation_Link.s: Aha_Algorithm/2-5-Simulation_Link.c.s
+
+.PHONY : Aha_Algorithm/2-5-Simulation_Link.s
+
+# target to generate assembly for a file
+Aha_Algorithm/2-5-Simulation_Link.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-5-Simulation_Link.c.s
+.PHONY : Aha_Algorithm/2-5-Simulation_Link.c.s
+
+Aha_Algorithm/4-1-dfs.obj: Aha_Algorithm/4-1-dfs.c.obj
+
+.PHONY : Aha_Algorithm/4-1-dfs.obj
+
+# target to build an object file
+Aha_Algorithm/4-1-dfs.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-1-dfs.c.obj
+.PHONY : Aha_Algorithm/4-1-dfs.c.obj
+
+Aha_Algorithm/4-1-dfs.i: Aha_Algorithm/4-1-dfs.c.i
+
+.PHONY : Aha_Algorithm/4-1-dfs.i
+
+# target to preprocess a source file
+Aha_Algorithm/4-1-dfs.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-1-dfs.c.i
+.PHONY : Aha_Algorithm/4-1-dfs.c.i
+
+Aha_Algorithm/4-1-dfs.s: Aha_Algorithm/4-1-dfs.c.s
+
+.PHONY : Aha_Algorithm/4-1-dfs.s
+
+# target to generate assembly for a file
+Aha_Algorithm/4-1-dfs.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-1-dfs.c.s
+.PHONY : Aha_Algorithm/4-1-dfs.c.s
+
+Aha_Algorithm/4-2-dfs_maze.obj: Aha_Algorithm/4-2-dfs_maze.c.obj
+
+.PHONY : Aha_Algorithm/4-2-dfs_maze.obj
+
+# target to build an object file
+Aha_Algorithm/4-2-dfs_maze.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-2-dfs_maze.c.obj
+.PHONY : Aha_Algorithm/4-2-dfs_maze.c.obj
+
+Aha_Algorithm/4-2-dfs_maze.i: Aha_Algorithm/4-2-dfs_maze.c.i
+
+.PHONY : Aha_Algorithm/4-2-dfs_maze.i
+
+# target to preprocess a source file
+Aha_Algorithm/4-2-dfs_maze.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-2-dfs_maze.c.i
+.PHONY : Aha_Algorithm/4-2-dfs_maze.c.i
+
+Aha_Algorithm/4-2-dfs_maze.s: Aha_Algorithm/4-2-dfs_maze.c.s
+
+.PHONY : Aha_Algorithm/4-2-dfs_maze.s
+
+# target to generate assembly for a file
+Aha_Algorithm/4-2-dfs_maze.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-2-dfs_maze.c.s
+.PHONY : Aha_Algorithm/4-2-dfs_maze.c.s
+
+Aha_Algorithm/4-3-bfs_maze.obj: Aha_Algorithm/4-3-bfs_maze.c.obj
+
+.PHONY : Aha_Algorithm/4-3-bfs_maze.obj
+
+# target to build an object file
+Aha_Algorithm/4-3-bfs_maze.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-3-bfs_maze.c.obj
+.PHONY : Aha_Algorithm/4-3-bfs_maze.c.obj
+
+Aha_Algorithm/4-3-bfs_maze.i: Aha_Algorithm/4-3-bfs_maze.c.i
+
+.PHONY : Aha_Algorithm/4-3-bfs_maze.i
+
+# target to preprocess a source file
+Aha_Algorithm/4-3-bfs_maze.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-3-bfs_maze.c.i
+.PHONY : Aha_Algorithm/4-3-bfs_maze.c.i
+
+Aha_Algorithm/4-3-bfs_maze.s: Aha_Algorithm/4-3-bfs_maze.c.s
+
+.PHONY : Aha_Algorithm/4-3-bfs_maze.s
+
+# target to generate assembly for a file
+Aha_Algorithm/4-3-bfs_maze.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-3-bfs_maze.c.s
+.PHONY : Aha_Algorithm/4-3-bfs_maze.c.s
+
+Aha_Algorithm/4-4-Bomb_man.obj: Aha_Algorithm/4-4-Bomb_man.c.obj
+
+.PHONY : Aha_Algorithm/4-4-Bomb_man.obj
+
+# target to build an object file
+Aha_Algorithm/4-4-Bomb_man.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-4-Bomb_man.c.obj
+.PHONY : Aha_Algorithm/4-4-Bomb_man.c.obj
+
+Aha_Algorithm/4-4-Bomb_man.i: Aha_Algorithm/4-4-Bomb_man.c.i
+
+.PHONY : Aha_Algorithm/4-4-Bomb_man.i
+
+# target to preprocess a source file
+Aha_Algorithm/4-4-Bomb_man.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-4-Bomb_man.c.i
+.PHONY : Aha_Algorithm/4-4-Bomb_man.c.i
+
+Aha_Algorithm/4-4-Bomb_man.s: Aha_Algorithm/4-4-Bomb_man.c.s
+
+.PHONY : Aha_Algorithm/4-4-Bomb_man.s
+
+# target to generate assembly for a file
+Aha_Algorithm/4-4-Bomb_man.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-4-Bomb_man.c.s
+.PHONY : Aha_Algorithm/4-4-Bomb_man.c.s
+
+Aha_Algorithm/4-5-Island_Adventure.obj: Aha_Algorithm/4-5-Island_Adventure.c.obj
+
+.PHONY : Aha_Algorithm/4-5-Island_Adventure.obj
+
+# target to build an object file
+Aha_Algorithm/4-5-Island_Adventure.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-5-Island_Adventure.c.obj
+.PHONY : Aha_Algorithm/4-5-Island_Adventure.c.obj
+
+Aha_Algorithm/4-5-Island_Adventure.i: Aha_Algorithm/4-5-Island_Adventure.c.i
+
+.PHONY : Aha_Algorithm/4-5-Island_Adventure.i
+
+# target to preprocess a source file
+Aha_Algorithm/4-5-Island_Adventure.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-5-Island_Adventure.c.i
+.PHONY : Aha_Algorithm/4-5-Island_Adventure.c.i
+
+Aha_Algorithm/4-5-Island_Adventure.s: Aha_Algorithm/4-5-Island_Adventure.c.s
+
+.PHONY : Aha_Algorithm/4-5-Island_Adventure.s
+
+# target to generate assembly for a file
+Aha_Algorithm/4-5-Island_Adventure.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-5-Island_Adventure.c.s
+.PHONY : Aha_Algorithm/4-5-Island_Adventure.c.s
+
+Aha_Algorithm/4-6-water_pip.obj: Aha_Algorithm/4-6-water_pip.c.obj
+
+.PHONY : Aha_Algorithm/4-6-water_pip.obj
+
+# target to build an object file
+Aha_Algorithm/4-6-water_pip.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-6-water_pip.c.obj
+.PHONY : Aha_Algorithm/4-6-water_pip.c.obj
+
+Aha_Algorithm/4-6-water_pip.i: Aha_Algorithm/4-6-water_pip.c.i
+
+.PHONY : Aha_Algorithm/4-6-water_pip.i
+
+# target to preprocess a source file
+Aha_Algorithm/4-6-water_pip.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-6-water_pip.c.i
+.PHONY : Aha_Algorithm/4-6-water_pip.c.i
+
+Aha_Algorithm/4-6-water_pip.s: Aha_Algorithm/4-6-water_pip.c.s
+
+.PHONY : Aha_Algorithm/4-6-water_pip.s
+
+# target to generate assembly for a file
+Aha_Algorithm/4-6-water_pip.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-6-water_pip.c.s
+.PHONY : Aha_Algorithm/4-6-water_pip.c.s
+
+Aha_Algorithm/5-1-dfs_bfs.obj: Aha_Algorithm/5-1-dfs_bfs.c.obj
+
+.PHONY : Aha_Algorithm/5-1-dfs_bfs.obj
+
+# target to build an object file
+Aha_Algorithm/5-1-dfs_bfs.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/5-1-dfs_bfs.c.obj
+.PHONY : Aha_Algorithm/5-1-dfs_bfs.c.obj
+
+Aha_Algorithm/5-1-dfs_bfs.i: Aha_Algorithm/5-1-dfs_bfs.c.i
+
+.PHONY : Aha_Algorithm/5-1-dfs_bfs.i
+
+# target to preprocess a source file
+Aha_Algorithm/5-1-dfs_bfs.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/5-1-dfs_bfs.c.i
+.PHONY : Aha_Algorithm/5-1-dfs_bfs.c.i
+
+Aha_Algorithm/5-1-dfs_bfs.s: Aha_Algorithm/5-1-dfs_bfs.c.s
+
+.PHONY : Aha_Algorithm/5-1-dfs_bfs.s
+
+# target to generate assembly for a file
+Aha_Algorithm/5-1-dfs_bfs.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/Aha_Algorithm/5-1-dfs_bfs.c.s
+.PHONY : Aha_Algorithm/5-1-dfs_bfs.c.s
+
+algorithm/base.obj: algorithm/base.c.obj
+
+.PHONY : algorithm/base.obj
+
+# target to build an object file
+algorithm/base.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/base.c.obj
+.PHONY : algorithm/base.c.obj
+
+algorithm/base.i: algorithm/base.c.i
+
+.PHONY : algorithm/base.i
+
+# target to preprocess a source file
+algorithm/base.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/base.c.i
+.PHONY : algorithm/base.c.i
+
+algorithm/base.s: algorithm/base.c.s
+
+.PHONY : algorithm/base.s
+
+# target to generate assembly for a file
+algorithm/base.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/base.c.s
+.PHONY : algorithm/base.c.s
+
+algorithm/binarySearch.obj: algorithm/binarySearch.c.obj
+
+.PHONY : algorithm/binarySearch.obj
+
+# target to build an object file
+algorithm/binarySearch.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/binarySearch.c.obj
+.PHONY : algorithm/binarySearch.c.obj
+
+algorithm/binarySearch.i: algorithm/binarySearch.c.i
+
+.PHONY : algorithm/binarySearch.i
+
+# target to preprocess a source file
+algorithm/binarySearch.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/binarySearch.c.i
+.PHONY : algorithm/binarySearch.c.i
+
+algorithm/binarySearch.s: algorithm/binarySearch.c.s
+
+.PHONY : algorithm/binarySearch.s
+
+# target to generate assembly for a file
+algorithm/binarySearch.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/binarySearch.c.s
+.PHONY : algorithm/binarySearch.c.s
+
+algorithm/bubbleSort.obj: algorithm/bubbleSort.c.obj
+
+.PHONY : algorithm/bubbleSort.obj
+
+# target to build an object file
+algorithm/bubbleSort.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/bubbleSort.c.obj
+.PHONY : algorithm/bubbleSort.c.obj
+
+algorithm/bubbleSort.i: algorithm/bubbleSort.c.i
+
+.PHONY : algorithm/bubbleSort.i
+
+# target to preprocess a source file
+algorithm/bubbleSort.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/bubbleSort.c.i
+.PHONY : algorithm/bubbleSort.c.i
+
+algorithm/bubbleSort.s: algorithm/bubbleSort.c.s
+
+.PHONY : algorithm/bubbleSort.s
+
+# target to generate assembly for a file
+algorithm/bubbleSort.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/bubbleSort.c.s
+.PHONY : algorithm/bubbleSort.c.s
+
+algorithm/find_k.obj: algorithm/find_k.c.obj
+
+.PHONY : algorithm/find_k.obj
+
+# target to build an object file
+algorithm/find_k.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/find_k.c.obj
+.PHONY : algorithm/find_k.c.obj
+
+algorithm/find_k.i: algorithm/find_k.c.i
+
+.PHONY : algorithm/find_k.i
+
+# target to preprocess a source file
+algorithm/find_k.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/find_k.c.i
+.PHONY : algorithm/find_k.c.i
+
+algorithm/find_k.s: algorithm/find_k.c.s
+
+.PHONY : algorithm/find_k.s
+
+# target to generate assembly for a file
+algorithm/find_k.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/find_k.c.s
+.PHONY : algorithm/find_k.c.s
+
+algorithm/heapSort.obj: algorithm/heapSort.c.obj
+
+.PHONY : algorithm/heapSort.obj
+
+# target to build an object file
+algorithm/heapSort.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/heapSort.c.obj
+.PHONY : algorithm/heapSort.c.obj
+
+algorithm/heapSort.i: algorithm/heapSort.c.i
+
+.PHONY : algorithm/heapSort.i
+
+# target to preprocess a source file
+algorithm/heapSort.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/heapSort.c.i
+.PHONY : algorithm/heapSort.c.i
+
+algorithm/heapSort.s: algorithm/heapSort.c.s
+
+.PHONY : algorithm/heapSort.s
+
+# target to generate assembly for a file
+algorithm/heapSort.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/heapSort.c.s
+.PHONY : algorithm/heapSort.c.s
+
+algorithm/insertSort.obj: algorithm/insertSort.c.obj
+
+.PHONY : algorithm/insertSort.obj
+
+# target to build an object file
+algorithm/insertSort.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/insertSort.c.obj
+.PHONY : algorithm/insertSort.c.obj
+
+algorithm/insertSort.i: algorithm/insertSort.c.i
+
+.PHONY : algorithm/insertSort.i
+
+# target to preprocess a source file
+algorithm/insertSort.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/insertSort.c.i
+.PHONY : algorithm/insertSort.c.i
+
+algorithm/insertSort.s: algorithm/insertSort.c.s
+
+.PHONY : algorithm/insertSort.s
+
+# target to generate assembly for a file
+algorithm/insertSort.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/insertSort.c.s
+.PHONY : algorithm/insertSort.c.s
+
+algorithm/mergingSort.obj: algorithm/mergingSort.c.obj
+
+.PHONY : algorithm/mergingSort.obj
+
+# target to build an object file
+algorithm/mergingSort.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/mergingSort.c.obj
+.PHONY : algorithm/mergingSort.c.obj
+
+algorithm/mergingSort.i: algorithm/mergingSort.c.i
+
+.PHONY : algorithm/mergingSort.i
+
+# target to preprocess a source file
+algorithm/mergingSort.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/mergingSort.c.i
+.PHONY : algorithm/mergingSort.c.i
+
+algorithm/mergingSort.s: algorithm/mergingSort.c.s
+
+.PHONY : algorithm/mergingSort.s
+
+# target to generate assembly for a file
+algorithm/mergingSort.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/mergingSort.c.s
+.PHONY : algorithm/mergingSort.c.s
+
+algorithm/quickSort.obj: algorithm/quickSort.c.obj
+
+.PHONY : algorithm/quickSort.obj
+
+# target to build an object file
+algorithm/quickSort.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/quickSort.c.obj
+.PHONY : algorithm/quickSort.c.obj
+
+algorithm/quickSort.i: algorithm/quickSort.c.i
+
+.PHONY : algorithm/quickSort.i
+
+# target to preprocess a source file
+algorithm/quickSort.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/quickSort.c.i
+.PHONY : algorithm/quickSort.c.i
+
+algorithm/quickSort.s: algorithm/quickSort.c.s
+
+.PHONY : algorithm/quickSort.s
+
+# target to generate assembly for a file
+algorithm/quickSort.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/quickSort.c.s
+.PHONY : algorithm/quickSort.c.s
+
+algorithm/selectSort.obj: algorithm/selectSort.c.obj
+
+.PHONY : algorithm/selectSort.obj
+
+# target to build an object file
+algorithm/selectSort.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/selectSort.c.obj
+.PHONY : algorithm/selectSort.c.obj
+
+algorithm/selectSort.i: algorithm/selectSort.c.i
+
+.PHONY : algorithm/selectSort.i
+
+# target to preprocess a source file
+algorithm/selectSort.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/selectSort.c.i
+.PHONY : algorithm/selectSort.c.i
+
+algorithm/selectSort.s: algorithm/selectSort.c.s
+
+.PHONY : algorithm/selectSort.s
+
+# target to generate assembly for a file
+algorithm/selectSort.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/selectSort.c.s
+.PHONY : algorithm/selectSort.c.s
+
+algorithm/shellSort.obj: algorithm/shellSort.c.obj
+
+.PHONY : algorithm/shellSort.obj
+
+# target to build an object file
+algorithm/shellSort.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/shellSort.c.obj
+.PHONY : algorithm/shellSort.c.obj
+
+algorithm/shellSort.i: algorithm/shellSort.c.i
+
+.PHONY : algorithm/shellSort.i
+
+# target to preprocess a source file
+algorithm/shellSort.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/shellSort.c.i
+.PHONY : algorithm/shellSort.c.i
+
+algorithm/shellSort.s: algorithm/shellSort.c.s
+
+.PHONY : algorithm/shellSort.s
+
+# target to generate assembly for a file
+algorithm/shellSort.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/algorithm/shellSort.c.s
+.PHONY : algorithm/shellSort.c.s
+
+data_structure/adjacencyList.obj: data_structure/adjacencyList.c.obj
+
+.PHONY : data_structure/adjacencyList.obj
+
+# target to build an object file
+data_structure/adjacencyList.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/adjacencyList.c.obj
+.PHONY : data_structure/adjacencyList.c.obj
+
+data_structure/adjacencyList.i: data_structure/adjacencyList.c.i
+
+.PHONY : data_structure/adjacencyList.i
+
+# target to preprocess a source file
+data_structure/adjacencyList.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/adjacencyList.c.i
+.PHONY : data_structure/adjacencyList.c.i
+
+data_structure/adjacencyList.s: data_structure/adjacencyList.c.s
+
+.PHONY : data_structure/adjacencyList.s
+
+# target to generate assembly for a file
+data_structure/adjacencyList.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/adjacencyList.c.s
+.PHONY : data_structure/adjacencyList.c.s
+
+data_structure/adjacencyListTest.obj: data_structure/adjacencyListTest.c.obj
+
+.PHONY : data_structure/adjacencyListTest.obj
+
+# target to build an object file
+data_structure/adjacencyListTest.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/adjacencyListTest.c.obj
+.PHONY : data_structure/adjacencyListTest.c.obj
+
+data_structure/adjacencyListTest.i: data_structure/adjacencyListTest.c.i
+
+.PHONY : data_structure/adjacencyListTest.i
+
+# target to preprocess a source file
+data_structure/adjacencyListTest.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/adjacencyListTest.c.i
+.PHONY : data_structure/adjacencyListTest.c.i
+
+data_structure/adjacencyListTest.s: data_structure/adjacencyListTest.c.s
+
+.PHONY : data_structure/adjacencyListTest.s
+
+# target to generate assembly for a file
+data_structure/adjacencyListTest.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/adjacencyListTest.c.s
+.PHONY : data_structure/adjacencyListTest.c.s
+
+data_structure/adjacencyMatricTest.obj: data_structure/adjacencyMatricTest.c.obj
+
+.PHONY : data_structure/adjacencyMatricTest.obj
+
+# target to build an object file
+data_structure/adjacencyMatricTest.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatricTest.c.obj
+.PHONY : data_structure/adjacencyMatricTest.c.obj
+
+data_structure/adjacencyMatricTest.i: data_structure/adjacencyMatricTest.c.i
+
+.PHONY : data_structure/adjacencyMatricTest.i
+
+# target to preprocess a source file
+data_structure/adjacencyMatricTest.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatricTest.c.i
+.PHONY : data_structure/adjacencyMatricTest.c.i
+
+data_structure/adjacencyMatricTest.s: data_structure/adjacencyMatricTest.c.s
+
+.PHONY : data_structure/adjacencyMatricTest.s
+
+# target to generate assembly for a file
+data_structure/adjacencyMatricTest.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatricTest.c.s
+.PHONY : data_structure/adjacencyMatricTest.c.s
+
+data_structure/adjacencyMatrix.obj: data_structure/adjacencyMatrix.c.obj
+
+.PHONY : data_structure/adjacencyMatrix.obj
+
+# target to build an object file
+data_structure/adjacencyMatrix.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatrix.c.obj
+.PHONY : data_structure/adjacencyMatrix.c.obj
+
+data_structure/adjacencyMatrix.i: data_structure/adjacencyMatrix.c.i
+
+.PHONY : data_structure/adjacencyMatrix.i
+
+# target to preprocess a source file
+data_structure/adjacencyMatrix.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatrix.c.i
+.PHONY : data_structure/adjacencyMatrix.c.i
+
+data_structure/adjacencyMatrix.s: data_structure/adjacencyMatrix.c.s
+
+.PHONY : data_structure/adjacencyMatrix.s
+
+# target to generate assembly for a file
+data_structure/adjacencyMatrix.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatrix.c.s
+.PHONY : data_structure/adjacencyMatrix.c.s
+
+data_structure/binaryLinkedList.obj: data_structure/binaryLinkedList.c.obj
+
+.PHONY : data_structure/binaryLinkedList.obj
+
+# target to build an object file
+data_structure/binaryLinkedList.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/binaryLinkedList.c.obj
+.PHONY : data_structure/binaryLinkedList.c.obj
+
+data_structure/binaryLinkedList.i: data_structure/binaryLinkedList.c.i
+
+.PHONY : data_structure/binaryLinkedList.i
+
+# target to preprocess a source file
+data_structure/binaryLinkedList.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/binaryLinkedList.c.i
+.PHONY : data_structure/binaryLinkedList.c.i
+
+data_structure/binaryLinkedList.s: data_structure/binaryLinkedList.c.s
+
+.PHONY : data_structure/binaryLinkedList.s
+
+# target to generate assembly for a file
+data_structure/binaryLinkedList.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/binaryLinkedList.c.s
+.PHONY : data_structure/binaryLinkedList.c.s
+
+data_structure/binarySortTree.obj: data_structure/binarySortTree.c.obj
+
+.PHONY : data_structure/binarySortTree.obj
+
+# target to build an object file
+data_structure/binarySortTree.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/binarySortTree.c.obj
+.PHONY : data_structure/binarySortTree.c.obj
+
+data_structure/binarySortTree.i: data_structure/binarySortTree.c.i
+
+.PHONY : data_structure/binarySortTree.i
+
+# target to preprocess a source file
+data_structure/binarySortTree.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/binarySortTree.c.i
+.PHONY : data_structure/binarySortTree.c.i
+
+data_structure/binarySortTree.s: data_structure/binarySortTree.c.s
+
+.PHONY : data_structure/binarySortTree.s
+
+# target to generate assembly for a file
+data_structure/binarySortTree.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/binarySortTree.c.s
+.PHONY : data_structure/binarySortTree.c.s
+
+data_structure/circularLinkedList.obj: data_structure/circularLinkedList.c.obj
+
+.PHONY : data_structure/circularLinkedList.obj
+
+# target to build an object file
+data_structure/circularLinkedList.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/circularLinkedList.c.obj
+.PHONY : data_structure/circularLinkedList.c.obj
+
+data_structure/circularLinkedList.i: data_structure/circularLinkedList.c.i
+
+.PHONY : data_structure/circularLinkedList.i
+
+# target to preprocess a source file
+data_structure/circularLinkedList.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/circularLinkedList.c.i
+.PHONY : data_structure/circularLinkedList.c.i
+
+data_structure/circularLinkedList.s: data_structure/circularLinkedList.c.s
+
+.PHONY : data_structure/circularLinkedList.s
+
+# target to generate assembly for a file
+data_structure/circularLinkedList.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/circularLinkedList.c.s
+.PHONY : data_structure/circularLinkedList.c.s
+
+data_structure/circularQueque.obj: data_structure/circularQueque.c.obj
+
+.PHONY : data_structure/circularQueque.obj
+
+# target to build an object file
+data_structure/circularQueque.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/circularQueque.c.obj
+.PHONY : data_structure/circularQueque.c.obj
+
+data_structure/circularQueque.i: data_structure/circularQueque.c.i
+
+.PHONY : data_structure/circularQueque.i
+
+# target to preprocess a source file
+data_structure/circularQueque.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/circularQueque.c.i
+.PHONY : data_structure/circularQueque.c.i
+
+data_structure/circularQueque.s: data_structure/circularQueque.c.s
+
+.PHONY : data_structure/circularQueque.s
+
+# target to generate assembly for a file
+data_structure/circularQueque.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/circularQueque.c.s
+.PHONY : data_structure/circularQueque.c.s
+
+data_structure/doubleLinkedList.obj: data_structure/doubleLinkedList.c.obj
+
+.PHONY : data_structure/doubleLinkedList.obj
+
+# target to build an object file
+data_structure/doubleLinkedList.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/doubleLinkedList.c.obj
+.PHONY : data_structure/doubleLinkedList.c.obj
+
+data_structure/doubleLinkedList.i: data_structure/doubleLinkedList.c.i
+
+.PHONY : data_structure/doubleLinkedList.i
+
+# target to preprocess a source file
+data_structure/doubleLinkedList.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/doubleLinkedList.c.i
+.PHONY : data_structure/doubleLinkedList.c.i
+
+data_structure/doubleLinkedList.s: data_structure/doubleLinkedList.c.s
+
+.PHONY : data_structure/doubleLinkedList.s
+
+# target to generate assembly for a file
+data_structure/doubleLinkedList.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/doubleLinkedList.c.s
+.PHONY : data_structure/doubleLinkedList.c.s
+
+data_structure/linearLinkedList.obj: data_structure/linearLinkedList.c.obj
+
+.PHONY : data_structure/linearLinkedList.obj
+
+# target to build an object file
+data_structure/linearLinkedList.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/linearLinkedList.c.obj
+.PHONY : data_structure/linearLinkedList.c.obj
+
+data_structure/linearLinkedList.i: data_structure/linearLinkedList.c.i
+
+.PHONY : data_structure/linearLinkedList.i
+
+# target to preprocess a source file
+data_structure/linearLinkedList.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/linearLinkedList.c.i
+.PHONY : data_structure/linearLinkedList.c.i
+
+data_structure/linearLinkedList.s: data_structure/linearLinkedList.c.s
+
+.PHONY : data_structure/linearLinkedList.s
+
+# target to generate assembly for a file
+data_structure/linearLinkedList.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/linearLinkedList.c.s
+.PHONY : data_structure/linearLinkedList.c.s
+
+data_structure/linearQueue.obj: data_structure/linearQueue.c.obj
+
+.PHONY : data_structure/linearQueue.obj
+
+# target to build an object file
+data_structure/linearQueue.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/linearQueue.c.obj
+.PHONY : data_structure/linearQueue.c.obj
+
+data_structure/linearQueue.i: data_structure/linearQueue.c.i
+
+.PHONY : data_structure/linearQueue.i
+
+# target to preprocess a source file
+data_structure/linearQueue.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/linearQueue.c.i
+.PHONY : data_structure/linearQueue.c.i
+
+data_structure/linearQueue.s: data_structure/linearQueue.c.s
+
+.PHONY : data_structure/linearQueue.s
+
+# target to generate assembly for a file
+data_structure/linearQueue.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/linearQueue.c.s
+.PHONY : data_structure/linearQueue.c.s
+
+data_structure/linearStack.obj: data_structure/linearStack.c.obj
+
+.PHONY : data_structure/linearStack.obj
+
+# target to build an object file
+data_structure/linearStack.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/linearStack.c.obj
+.PHONY : data_structure/linearStack.c.obj
+
+data_structure/linearStack.i: data_structure/linearStack.c.i
+
+.PHONY : data_structure/linearStack.i
+
+# target to preprocess a source file
+data_structure/linearStack.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/linearStack.c.i
+.PHONY : data_structure/linearStack.c.i
+
+data_structure/linearStack.s: data_structure/linearStack.c.s
+
+.PHONY : data_structure/linearStack.s
+
+# target to generate assembly for a file
+data_structure/linearStack.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/linearStack.c.s
+.PHONY : data_structure/linearStack.c.s
+
+data_structure/orthogonalList.obj: data_structure/orthogonalList.c.obj
+
+.PHONY : data_structure/orthogonalList.obj
+
+# target to build an object file
+data_structure/orthogonalList.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/orthogonalList.c.obj
+.PHONY : data_structure/orthogonalList.c.obj
+
+data_structure/orthogonalList.i: data_structure/orthogonalList.c.i
+
+.PHONY : data_structure/orthogonalList.i
+
+# target to preprocess a source file
+data_structure/orthogonalList.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/orthogonalList.c.i
+.PHONY : data_structure/orthogonalList.c.i
+
+data_structure/orthogonalList.s: data_structure/orthogonalList.c.s
+
+.PHONY : data_structure/orthogonalList.s
+
+# target to generate assembly for a file
+data_structure/orthogonalList.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/orthogonalList.c.s
+.PHONY : data_structure/orthogonalList.c.s
+
+data_structure/queue.obj: data_structure/queue.c.obj
+
+.PHONY : data_structure/queue.obj
+
+# target to build an object file
+data_structure/queue.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/queue.c.obj
+.PHONY : data_structure/queue.c.obj
+
+data_structure/queue.i: data_structure/queue.c.i
+
+.PHONY : data_structure/queue.i
+
+# target to preprocess a source file
+data_structure/queue.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/queue.c.i
+.PHONY : data_structure/queue.c.i
+
+data_structure/queue.s: data_structure/queue.c.s
+
+.PHONY : data_structure/queue.s
+
+# target to generate assembly for a file
+data_structure/queue.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/queue.c.s
+.PHONY : data_structure/queue.c.s
+
+data_structure/sequenceLinkedList.obj: data_structure/sequenceLinkedList.c.obj
+
+.PHONY : data_structure/sequenceLinkedList.obj
+
+# target to build an object file
+data_structure/sequenceLinkedList.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/sequenceLinkedList.c.obj
+.PHONY : data_structure/sequenceLinkedList.c.obj
+
+data_structure/sequenceLinkedList.i: data_structure/sequenceLinkedList.c.i
+
+.PHONY : data_structure/sequenceLinkedList.i
+
+# target to preprocess a source file
+data_structure/sequenceLinkedList.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/sequenceLinkedList.c.i
+.PHONY : data_structure/sequenceLinkedList.c.i
+
+data_structure/sequenceLinkedList.s: data_structure/sequenceLinkedList.c.s
+
+.PHONY : data_structure/sequenceLinkedList.s
+
+# target to generate assembly for a file
+data_structure/sequenceLinkedList.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/sequenceLinkedList.c.s
+.PHONY : data_structure/sequenceLinkedList.c.s
+
+data_structure/sequenceStack.obj: data_structure/sequenceStack.c.obj
+
+.PHONY : data_structure/sequenceStack.obj
+
+# target to build an object file
+data_structure/sequenceStack.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/sequenceStack.c.obj
+.PHONY : data_structure/sequenceStack.c.obj
+
+data_structure/sequenceStack.i: data_structure/sequenceStack.c.i
+
+.PHONY : data_structure/sequenceStack.i
+
+# target to preprocess a source file
+data_structure/sequenceStack.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/sequenceStack.c.i
+.PHONY : data_structure/sequenceStack.c.i
+
+data_structure/sequenceStack.s: data_structure/sequenceStack.c.s
+
+.PHONY : data_structure/sequenceStack.s
+
+# target to generate assembly for a file
+data_structure/sequenceStack.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/sequenceStack.c.s
+.PHONY : data_structure/sequenceStack.c.s
+
+data_structure/test.obj: data_structure/test.c.obj
+
+.PHONY : data_structure/test.obj
+
+# target to build an object file
+data_structure/test.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/test.c.obj
+.PHONY : data_structure/test.c.obj
+
+data_structure/test.i: data_structure/test.c.i
+
+.PHONY : data_structure/test.i
+
+# target to preprocess a source file
+data_structure/test.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/test.c.i
+.PHONY : data_structure/test.c.i
+
+data_structure/test.s: data_structure/test.c.s
+
+.PHONY : data_structure/test.s
+
+# target to generate assembly for a file
+data_structure/test.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/test.c.s
+.PHONY : data_structure/test.c.s
+
+data_structure/threadedBinaryLikedList.obj: data_structure/threadedBinaryLikedList.c.obj
+
+.PHONY : data_structure/threadedBinaryLikedList.obj
+
+# target to build an object file
+data_structure/threadedBinaryLikedList.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/threadedBinaryLikedList.c.obj
+.PHONY : data_structure/threadedBinaryLikedList.c.obj
+
+data_structure/threadedBinaryLikedList.i: data_structure/threadedBinaryLikedList.c.i
+
+.PHONY : data_structure/threadedBinaryLikedList.i
+
+# target to preprocess a source file
+data_structure/threadedBinaryLikedList.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/threadedBinaryLikedList.c.i
+.PHONY : data_structure/threadedBinaryLikedList.c.i
+
+data_structure/threadedBinaryLikedList.s: data_structure/threadedBinaryLikedList.c.s
+
+.PHONY : data_structure/threadedBinaryLikedList.s
+
+# target to generate assembly for a file
+data_structure/threadedBinaryLikedList.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/data_structure/threadedBinaryLikedList.c.s
+.PHONY : data_structure/threadedBinaryLikedList.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -149,6 +1229,60 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/main.c.s
 .PHONY : main.c.s
 
+main2.obj: main2.c.obj
+
+.PHONY : main2.obj
+
+# target to build an object file
+main2.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/main2.c.obj
+.PHONY : main2.c.obj
+
+main2.i: main2.c.i
+
+.PHONY : main2.i
+
+# target to preprocess a source file
+main2.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/main2.c.i
+.PHONY : main2.c.i
+
+main2.s: main2.c.s
+
+.PHONY : main2.s
+
+# target to generate assembly for a file
+main2.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/main2.c.s
+.PHONY : main2.c.s
+
+practice/practice.obj: practice/practice.c.obj
+
+.PHONY : practice/practice.obj
+
+# target to build an object file
+practice/practice.c.obj:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/practice/practice.c.obj
+.PHONY : practice/practice.c.obj
+
+practice/practice.i: practice/practice.c.i
+
+.PHONY : practice/practice.i
+
+# target to preprocess a source file
+practice/practice.c.i:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/practice/practice.c.i
+.PHONY : practice/practice.c.i
+
+practice/practice.s: practice/practice.c.s
+
+.PHONY : practice/practice.s
+
+# target to generate assembly for a file
+practice/practice.c.s:
+	$(MAKE) -f CMakeFiles\algorithm_c.dir\build.make CMakeFiles/algorithm_c.dir/practice/practice.c.s
+.PHONY : practice/practice.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -158,9 +1292,135 @@ help:
 	@echo ... algorithm_c
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Aha_Algorithm/2-1-queue.obj
+	@echo ... Aha_Algorithm/2-1-queue.i
+	@echo ... Aha_Algorithm/2-1-queue.s
+	@echo ... Aha_Algorithm/2-2-stack.obj
+	@echo ... Aha_Algorithm/2-2-stack.i
+	@echo ... Aha_Algorithm/2-2-stack.s
+	@echo ... Aha_Algorithm/2-3-QueueAndStack.obj
+	@echo ... Aha_Algorithm/2-3-QueueAndStack.i
+	@echo ... Aha_Algorithm/2-3-QueueAndStack.s
+	@echo ... Aha_Algorithm/2-4-Link_List.obj
+	@echo ... Aha_Algorithm/2-4-Link_List.i
+	@echo ... Aha_Algorithm/2-4-Link_List.s
+	@echo ... Aha_Algorithm/2-5-Simulation_Link.obj
+	@echo ... Aha_Algorithm/2-5-Simulation_Link.i
+	@echo ... Aha_Algorithm/2-5-Simulation_Link.s
+	@echo ... Aha_Algorithm/4-1-dfs.obj
+	@echo ... Aha_Algorithm/4-1-dfs.i
+	@echo ... Aha_Algorithm/4-1-dfs.s
+	@echo ... Aha_Algorithm/4-2-dfs_maze.obj
+	@echo ... Aha_Algorithm/4-2-dfs_maze.i
+	@echo ... Aha_Algorithm/4-2-dfs_maze.s
+	@echo ... Aha_Algorithm/4-3-bfs_maze.obj
+	@echo ... Aha_Algorithm/4-3-bfs_maze.i
+	@echo ... Aha_Algorithm/4-3-bfs_maze.s
+	@echo ... Aha_Algorithm/4-4-Bomb_man.obj
+	@echo ... Aha_Algorithm/4-4-Bomb_man.i
+	@echo ... Aha_Algorithm/4-4-Bomb_man.s
+	@echo ... Aha_Algorithm/4-5-Island_Adventure.obj
+	@echo ... Aha_Algorithm/4-5-Island_Adventure.i
+	@echo ... Aha_Algorithm/4-5-Island_Adventure.s
+	@echo ... Aha_Algorithm/4-6-water_pip.obj
+	@echo ... Aha_Algorithm/4-6-water_pip.i
+	@echo ... Aha_Algorithm/4-6-water_pip.s
+	@echo ... Aha_Algorithm/5-1-dfs_bfs.obj
+	@echo ... Aha_Algorithm/5-1-dfs_bfs.i
+	@echo ... Aha_Algorithm/5-1-dfs_bfs.s
+	@echo ... algorithm/base.obj
+	@echo ... algorithm/base.i
+	@echo ... algorithm/base.s
+	@echo ... algorithm/binarySearch.obj
+	@echo ... algorithm/binarySearch.i
+	@echo ... algorithm/binarySearch.s
+	@echo ... algorithm/bubbleSort.obj
+	@echo ... algorithm/bubbleSort.i
+	@echo ... algorithm/bubbleSort.s
+	@echo ... algorithm/find_k.obj
+	@echo ... algorithm/find_k.i
+	@echo ... algorithm/find_k.s
+	@echo ... algorithm/heapSort.obj
+	@echo ... algorithm/heapSort.i
+	@echo ... algorithm/heapSort.s
+	@echo ... algorithm/insertSort.obj
+	@echo ... algorithm/insertSort.i
+	@echo ... algorithm/insertSort.s
+	@echo ... algorithm/mergingSort.obj
+	@echo ... algorithm/mergingSort.i
+	@echo ... algorithm/mergingSort.s
+	@echo ... algorithm/quickSort.obj
+	@echo ... algorithm/quickSort.i
+	@echo ... algorithm/quickSort.s
+	@echo ... algorithm/selectSort.obj
+	@echo ... algorithm/selectSort.i
+	@echo ... algorithm/selectSort.s
+	@echo ... algorithm/shellSort.obj
+	@echo ... algorithm/shellSort.i
+	@echo ... algorithm/shellSort.s
+	@echo ... data_structure/adjacencyList.obj
+	@echo ... data_structure/adjacencyList.i
+	@echo ... data_structure/adjacencyList.s
+	@echo ... data_structure/adjacencyListTest.obj
+	@echo ... data_structure/adjacencyListTest.i
+	@echo ... data_structure/adjacencyListTest.s
+	@echo ... data_structure/adjacencyMatricTest.obj
+	@echo ... data_structure/adjacencyMatricTest.i
+	@echo ... data_structure/adjacencyMatricTest.s
+	@echo ... data_structure/adjacencyMatrix.obj
+	@echo ... data_structure/adjacencyMatrix.i
+	@echo ... data_structure/adjacencyMatrix.s
+	@echo ... data_structure/binaryLinkedList.obj
+	@echo ... data_structure/binaryLinkedList.i
+	@echo ... data_structure/binaryLinkedList.s
+	@echo ... data_structure/binarySortTree.obj
+	@echo ... data_structure/binarySortTree.i
+	@echo ... data_structure/binarySortTree.s
+	@echo ... data_structure/circularLinkedList.obj
+	@echo ... data_structure/circularLinkedList.i
+	@echo ... data_structure/circularLinkedList.s
+	@echo ... data_structure/circularQueque.obj
+	@echo ... data_structure/circularQueque.i
+	@echo ... data_structure/circularQueque.s
+	@echo ... data_structure/doubleLinkedList.obj
+	@echo ... data_structure/doubleLinkedList.i
+	@echo ... data_structure/doubleLinkedList.s
+	@echo ... data_structure/linearLinkedList.obj
+	@echo ... data_structure/linearLinkedList.i
+	@echo ... data_structure/linearLinkedList.s
+	@echo ... data_structure/linearQueue.obj
+	@echo ... data_structure/linearQueue.i
+	@echo ... data_structure/linearQueue.s
+	@echo ... data_structure/linearStack.obj
+	@echo ... data_structure/linearStack.i
+	@echo ... data_structure/linearStack.s
+	@echo ... data_structure/orthogonalList.obj
+	@echo ... data_structure/orthogonalList.i
+	@echo ... data_structure/orthogonalList.s
+	@echo ... data_structure/queue.obj
+	@echo ... data_structure/queue.i
+	@echo ... data_structure/queue.s
+	@echo ... data_structure/sequenceLinkedList.obj
+	@echo ... data_structure/sequenceLinkedList.i
+	@echo ... data_structure/sequenceLinkedList.s
+	@echo ... data_structure/sequenceStack.obj
+	@echo ... data_structure/sequenceStack.i
+	@echo ... data_structure/sequenceStack.s
+	@echo ... data_structure/test.obj
+	@echo ... data_structure/test.i
+	@echo ... data_structure/test.s
+	@echo ... data_structure/threadedBinaryLikedList.obj
+	@echo ... data_structure/threadedBinaryLikedList.i
+	@echo ... data_structure/threadedBinaryLikedList.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... main2.obj
+	@echo ... main2.i
+	@echo ... main2.s
+	@echo ... practice/practice.obj
+	@echo ... practice/practice.i
+	@echo ... practice/practice.s
 .PHONY : help
 
 

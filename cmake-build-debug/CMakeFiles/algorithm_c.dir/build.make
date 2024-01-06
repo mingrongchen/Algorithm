@@ -56,9 +56,598 @@ include CMakeFiles/algorithm_c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/algorithm_c.dir/flags.make
 
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-1-queue.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-1-queue.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-1-queue.c.obj: ../Aha_Algorithm/2-1-queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-1-queue.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\2-1-queue.c.obj   -c F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\2-1-queue.c
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-1-queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-1-queue.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\2-1-queue.c > CMakeFiles\algorithm_c.dir\Aha_Algorithm\2-1-queue.c.i
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-1-queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-1-queue.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\2-1-queue.c -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\2-1-queue.c.s
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-2-stack.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-2-stack.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-2-stack.c.obj: ../Aha_Algorithm/2-2-stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-2-stack.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\2-2-stack.c.obj   -c F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\2-2-stack.c
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-2-stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-2-stack.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\2-2-stack.c > CMakeFiles\algorithm_c.dir\Aha_Algorithm\2-2-stack.c.i
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-2-stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-2-stack.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\2-2-stack.c -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\2-2-stack.c.s
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-3-QueueAndStack.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-3-QueueAndStack.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-3-QueueAndStack.c.obj: ../Aha_Algorithm/2-3-QueueAndStack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-3-QueueAndStack.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\2-3-QueueAndStack.c.obj   -c F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\2-3-QueueAndStack.c
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-3-QueueAndStack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-3-QueueAndStack.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\2-3-QueueAndStack.c > CMakeFiles\algorithm_c.dir\Aha_Algorithm\2-3-QueueAndStack.c.i
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-3-QueueAndStack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-3-QueueAndStack.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\2-3-QueueAndStack.c -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\2-3-QueueAndStack.c.s
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-4-Link_List.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-4-Link_List.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-4-Link_List.c.obj: ../Aha_Algorithm/2-4-Link_List.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-4-Link_List.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\2-4-Link_List.c.obj   -c F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\2-4-Link_List.c
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-4-Link_List.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-4-Link_List.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\2-4-Link_List.c > CMakeFiles\algorithm_c.dir\Aha_Algorithm\2-4-Link_List.c.i
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-4-Link_List.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-4-Link_List.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\2-4-Link_List.c -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\2-4-Link_List.c.s
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-5-Simulation_Link.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-5-Simulation_Link.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-5-Simulation_Link.c.obj: ../Aha_Algorithm/2-5-Simulation_Link.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-5-Simulation_Link.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\2-5-Simulation_Link.c.obj   -c F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\2-5-Simulation_Link.c
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-5-Simulation_Link.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-5-Simulation_Link.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\2-5-Simulation_Link.c > CMakeFiles\algorithm_c.dir\Aha_Algorithm\2-5-Simulation_Link.c.i
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-5-Simulation_Link.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-5-Simulation_Link.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\2-5-Simulation_Link.c -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\2-5-Simulation_Link.c.s
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-1-dfs.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-1-dfs.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-1-dfs.c.obj: ../Aha_Algorithm/4-1-dfs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-1-dfs.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\4-1-dfs.c.obj   -c F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\4-1-dfs.c
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-1-dfs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-1-dfs.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\4-1-dfs.c > CMakeFiles\algorithm_c.dir\Aha_Algorithm\4-1-dfs.c.i
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-1-dfs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-1-dfs.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\4-1-dfs.c -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\4-1-dfs.c.s
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-2-dfs_maze.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-2-dfs_maze.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-2-dfs_maze.c.obj: ../Aha_Algorithm/4-2-dfs_maze.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-2-dfs_maze.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\4-2-dfs_maze.c.obj   -c F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\4-2-dfs_maze.c
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-2-dfs_maze.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-2-dfs_maze.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\4-2-dfs_maze.c > CMakeFiles\algorithm_c.dir\Aha_Algorithm\4-2-dfs_maze.c.i
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-2-dfs_maze.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-2-dfs_maze.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\4-2-dfs_maze.c -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\4-2-dfs_maze.c.s
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-3-bfs_maze.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-3-bfs_maze.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-3-bfs_maze.c.obj: ../Aha_Algorithm/4-3-bfs_maze.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-3-bfs_maze.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\4-3-bfs_maze.c.obj   -c F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\4-3-bfs_maze.c
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-3-bfs_maze.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-3-bfs_maze.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\4-3-bfs_maze.c > CMakeFiles\algorithm_c.dir\Aha_Algorithm\4-3-bfs_maze.c.i
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-3-bfs_maze.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-3-bfs_maze.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\4-3-bfs_maze.c -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\4-3-bfs_maze.c.s
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-4-Bomb_man.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-4-Bomb_man.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-4-Bomb_man.c.obj: ../Aha_Algorithm/4-4-Bomb_man.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-4-Bomb_man.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\4-4-Bomb_man.c.obj   -c F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\4-4-Bomb_man.c
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-4-Bomb_man.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-4-Bomb_man.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\4-4-Bomb_man.c > CMakeFiles\algorithm_c.dir\Aha_Algorithm\4-4-Bomb_man.c.i
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-4-Bomb_man.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-4-Bomb_man.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\4-4-Bomb_man.c -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\4-4-Bomb_man.c.s
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-5-Island_Adventure.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-5-Island_Adventure.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-5-Island_Adventure.c.obj: ../Aha_Algorithm/4-5-Island_Adventure.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-5-Island_Adventure.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\4-5-Island_Adventure.c.obj   -c F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\4-5-Island_Adventure.c
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-5-Island_Adventure.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-5-Island_Adventure.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\4-5-Island_Adventure.c > CMakeFiles\algorithm_c.dir\Aha_Algorithm\4-5-Island_Adventure.c.i
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-5-Island_Adventure.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-5-Island_Adventure.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\4-5-Island_Adventure.c -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\4-5-Island_Adventure.c.s
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-6-water_pip.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-6-water_pip.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-6-water_pip.c.obj: ../Aha_Algorithm/4-6-water_pip.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-6-water_pip.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\4-6-water_pip.c.obj   -c F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\4-6-water_pip.c
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-6-water_pip.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-6-water_pip.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\4-6-water_pip.c > CMakeFiles\algorithm_c.dir\Aha_Algorithm\4-6-water_pip.c.i
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-6-water_pip.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-6-water_pip.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\4-6-water_pip.c -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\4-6-water_pip.c.s
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/5-1-dfs_bfs.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/5-1-dfs_bfs.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/5-1-dfs_bfs.c.obj: ../Aha_Algorithm/5-1-dfs_bfs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/algorithm_c.dir/Aha_Algorithm/5-1-dfs_bfs.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\5-1-dfs_bfs.c.obj   -c F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\5-1-dfs_bfs.c
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/5-1-dfs_bfs.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/Aha_Algorithm/5-1-dfs_bfs.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\5-1-dfs_bfs.c > CMakeFiles\algorithm_c.dir\Aha_Algorithm\5-1-dfs_bfs.c.i
+
+CMakeFiles/algorithm_c.dir/Aha_Algorithm/5-1-dfs_bfs.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/Aha_Algorithm/5-1-dfs_bfs.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\Aha_Algorithm\5-1-dfs_bfs.c -o CMakeFiles\algorithm_c.dir\Aha_Algorithm\5-1-dfs_bfs.c.s
+
+CMakeFiles/algorithm_c.dir/algorithm/base.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/algorithm/base.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/algorithm/base.c.obj: ../algorithm/base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/algorithm_c.dir/algorithm/base.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\algorithm\base.c.obj   -c F:\Git_Remote\Github\algorithm-c\algorithm\base.c
+
+CMakeFiles/algorithm_c.dir/algorithm/base.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/algorithm/base.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\algorithm\base.c > CMakeFiles\algorithm_c.dir\algorithm\base.c.i
+
+CMakeFiles/algorithm_c.dir/algorithm/base.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/algorithm/base.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\algorithm\base.c -o CMakeFiles\algorithm_c.dir\algorithm\base.c.s
+
+CMakeFiles/algorithm_c.dir/algorithm/binarySearch.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/algorithm/binarySearch.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/algorithm/binarySearch.c.obj: ../algorithm/binarySearch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/algorithm_c.dir/algorithm/binarySearch.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\algorithm\binarySearch.c.obj   -c F:\Git_Remote\Github\algorithm-c\algorithm\binarySearch.c
+
+CMakeFiles/algorithm_c.dir/algorithm/binarySearch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/algorithm/binarySearch.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\algorithm\binarySearch.c > CMakeFiles\algorithm_c.dir\algorithm\binarySearch.c.i
+
+CMakeFiles/algorithm_c.dir/algorithm/binarySearch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/algorithm/binarySearch.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\algorithm\binarySearch.c -o CMakeFiles\algorithm_c.dir\algorithm\binarySearch.c.s
+
+CMakeFiles/algorithm_c.dir/algorithm/bubbleSort.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/algorithm/bubbleSort.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/algorithm/bubbleSort.c.obj: ../algorithm/bubbleSort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/algorithm_c.dir/algorithm/bubbleSort.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\algorithm\bubbleSort.c.obj   -c F:\Git_Remote\Github\algorithm-c\algorithm\bubbleSort.c
+
+CMakeFiles/algorithm_c.dir/algorithm/bubbleSort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/algorithm/bubbleSort.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\algorithm\bubbleSort.c > CMakeFiles\algorithm_c.dir\algorithm\bubbleSort.c.i
+
+CMakeFiles/algorithm_c.dir/algorithm/bubbleSort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/algorithm/bubbleSort.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\algorithm\bubbleSort.c -o CMakeFiles\algorithm_c.dir\algorithm\bubbleSort.c.s
+
+CMakeFiles/algorithm_c.dir/algorithm/find_k.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/algorithm/find_k.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/algorithm/find_k.c.obj: ../algorithm/find_k.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/algorithm_c.dir/algorithm/find_k.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\algorithm\find_k.c.obj   -c F:\Git_Remote\Github\algorithm-c\algorithm\find_k.c
+
+CMakeFiles/algorithm_c.dir/algorithm/find_k.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/algorithm/find_k.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\algorithm\find_k.c > CMakeFiles\algorithm_c.dir\algorithm\find_k.c.i
+
+CMakeFiles/algorithm_c.dir/algorithm/find_k.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/algorithm/find_k.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\algorithm\find_k.c -o CMakeFiles\algorithm_c.dir\algorithm\find_k.c.s
+
+CMakeFiles/algorithm_c.dir/algorithm/heapSort.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/algorithm/heapSort.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/algorithm/heapSort.c.obj: ../algorithm/heapSort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/algorithm_c.dir/algorithm/heapSort.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\algorithm\heapSort.c.obj   -c F:\Git_Remote\Github\algorithm-c\algorithm\heapSort.c
+
+CMakeFiles/algorithm_c.dir/algorithm/heapSort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/algorithm/heapSort.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\algorithm\heapSort.c > CMakeFiles\algorithm_c.dir\algorithm\heapSort.c.i
+
+CMakeFiles/algorithm_c.dir/algorithm/heapSort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/algorithm/heapSort.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\algorithm\heapSort.c -o CMakeFiles\algorithm_c.dir\algorithm\heapSort.c.s
+
+CMakeFiles/algorithm_c.dir/algorithm/insertSort.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/algorithm/insertSort.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/algorithm/insertSort.c.obj: ../algorithm/insertSort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/algorithm_c.dir/algorithm/insertSort.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\algorithm\insertSort.c.obj   -c F:\Git_Remote\Github\algorithm-c\algorithm\insertSort.c
+
+CMakeFiles/algorithm_c.dir/algorithm/insertSort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/algorithm/insertSort.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\algorithm\insertSort.c > CMakeFiles\algorithm_c.dir\algorithm\insertSort.c.i
+
+CMakeFiles/algorithm_c.dir/algorithm/insertSort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/algorithm/insertSort.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\algorithm\insertSort.c -o CMakeFiles\algorithm_c.dir\algorithm\insertSort.c.s
+
+CMakeFiles/algorithm_c.dir/algorithm/mergingSort.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/algorithm/mergingSort.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/algorithm/mergingSort.c.obj: ../algorithm/mergingSort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/algorithm_c.dir/algorithm/mergingSort.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\algorithm\mergingSort.c.obj   -c F:\Git_Remote\Github\algorithm-c\algorithm\mergingSort.c
+
+CMakeFiles/algorithm_c.dir/algorithm/mergingSort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/algorithm/mergingSort.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\algorithm\mergingSort.c > CMakeFiles\algorithm_c.dir\algorithm\mergingSort.c.i
+
+CMakeFiles/algorithm_c.dir/algorithm/mergingSort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/algorithm/mergingSort.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\algorithm\mergingSort.c -o CMakeFiles\algorithm_c.dir\algorithm\mergingSort.c.s
+
+CMakeFiles/algorithm_c.dir/algorithm/quickSort.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/algorithm/quickSort.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/algorithm/quickSort.c.obj: ../algorithm/quickSort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/algorithm_c.dir/algorithm/quickSort.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\algorithm\quickSort.c.obj   -c F:\Git_Remote\Github\algorithm-c\algorithm\quickSort.c
+
+CMakeFiles/algorithm_c.dir/algorithm/quickSort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/algorithm/quickSort.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\algorithm\quickSort.c > CMakeFiles\algorithm_c.dir\algorithm\quickSort.c.i
+
+CMakeFiles/algorithm_c.dir/algorithm/quickSort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/algorithm/quickSort.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\algorithm\quickSort.c -o CMakeFiles\algorithm_c.dir\algorithm\quickSort.c.s
+
+CMakeFiles/algorithm_c.dir/algorithm/selectSort.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/algorithm/selectSort.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/algorithm/selectSort.c.obj: ../algorithm/selectSort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/algorithm_c.dir/algorithm/selectSort.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\algorithm\selectSort.c.obj   -c F:\Git_Remote\Github\algorithm-c\algorithm\selectSort.c
+
+CMakeFiles/algorithm_c.dir/algorithm/selectSort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/algorithm/selectSort.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\algorithm\selectSort.c > CMakeFiles\algorithm_c.dir\algorithm\selectSort.c.i
+
+CMakeFiles/algorithm_c.dir/algorithm/selectSort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/algorithm/selectSort.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\algorithm\selectSort.c -o CMakeFiles\algorithm_c.dir\algorithm\selectSort.c.s
+
+CMakeFiles/algorithm_c.dir/algorithm/shellSort.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/algorithm/shellSort.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/algorithm/shellSort.c.obj: ../algorithm/shellSort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/algorithm_c.dir/algorithm/shellSort.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\algorithm\shellSort.c.obj   -c F:\Git_Remote\Github\algorithm-c\algorithm\shellSort.c
+
+CMakeFiles/algorithm_c.dir/algorithm/shellSort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/algorithm/shellSort.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\algorithm\shellSort.c > CMakeFiles\algorithm_c.dir\algorithm\shellSort.c.i
+
+CMakeFiles/algorithm_c.dir/algorithm/shellSort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/algorithm/shellSort.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\algorithm\shellSort.c -o CMakeFiles\algorithm_c.dir\algorithm\shellSort.c.s
+
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyList.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyList.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyList.c.obj: ../data_structure/adjacencyList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/algorithm_c.dir/data_structure/adjacencyList.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\data_structure\adjacencyList.c.obj   -c F:\Git_Remote\Github\algorithm-c\data_structure\adjacencyList.c
+
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/data_structure/adjacencyList.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\data_structure\adjacencyList.c > CMakeFiles\algorithm_c.dir\data_structure\adjacencyList.c.i
+
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/data_structure/adjacencyList.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\data_structure\adjacencyList.c -o CMakeFiles\algorithm_c.dir\data_structure\adjacencyList.c.s
+
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyListTest.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyListTest.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyListTest.c.obj: ../data_structure/adjacencyListTest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/algorithm_c.dir/data_structure/adjacencyListTest.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\data_structure\adjacencyListTest.c.obj   -c F:\Git_Remote\Github\algorithm-c\data_structure\adjacencyListTest.c
+
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyListTest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/data_structure/adjacencyListTest.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\data_structure\adjacencyListTest.c > CMakeFiles\algorithm_c.dir\data_structure\adjacencyListTest.c.i
+
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyListTest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/data_structure/adjacencyListTest.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\data_structure\adjacencyListTest.c -o CMakeFiles\algorithm_c.dir\data_structure\adjacencyListTest.c.s
+
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatricTest.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatricTest.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatricTest.c.obj: ../data_structure/adjacencyMatricTest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatricTest.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\data_structure\adjacencyMatricTest.c.obj   -c F:\Git_Remote\Github\algorithm-c\data_structure\adjacencyMatricTest.c
+
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatricTest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatricTest.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\data_structure\adjacencyMatricTest.c > CMakeFiles\algorithm_c.dir\data_structure\adjacencyMatricTest.c.i
+
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatricTest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatricTest.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\data_structure\adjacencyMatricTest.c -o CMakeFiles\algorithm_c.dir\data_structure\adjacencyMatricTest.c.s
+
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatrix.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatrix.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatrix.c.obj: ../data_structure/adjacencyMatrix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatrix.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\data_structure\adjacencyMatrix.c.obj   -c F:\Git_Remote\Github\algorithm-c\data_structure\adjacencyMatrix.c
+
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatrix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatrix.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\data_structure\adjacencyMatrix.c > CMakeFiles\algorithm_c.dir\data_structure\adjacencyMatrix.c.i
+
+CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatrix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatrix.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\data_structure\adjacencyMatrix.c -o CMakeFiles\algorithm_c.dir\data_structure\adjacencyMatrix.c.s
+
+CMakeFiles/algorithm_c.dir/data_structure/binaryLinkedList.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/data_structure/binaryLinkedList.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/data_structure/binaryLinkedList.c.obj: ../data_structure/binaryLinkedList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/algorithm_c.dir/data_structure/binaryLinkedList.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\data_structure\binaryLinkedList.c.obj   -c F:\Git_Remote\Github\algorithm-c\data_structure\binaryLinkedList.c
+
+CMakeFiles/algorithm_c.dir/data_structure/binaryLinkedList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/data_structure/binaryLinkedList.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\data_structure\binaryLinkedList.c > CMakeFiles\algorithm_c.dir\data_structure\binaryLinkedList.c.i
+
+CMakeFiles/algorithm_c.dir/data_structure/binaryLinkedList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/data_structure/binaryLinkedList.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\data_structure\binaryLinkedList.c -o CMakeFiles\algorithm_c.dir\data_structure\binaryLinkedList.c.s
+
+CMakeFiles/algorithm_c.dir/data_structure/binarySortTree.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/data_structure/binarySortTree.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/data_structure/binarySortTree.c.obj: ../data_structure/binarySortTree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/algorithm_c.dir/data_structure/binarySortTree.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\data_structure\binarySortTree.c.obj   -c F:\Git_Remote\Github\algorithm-c\data_structure\binarySortTree.c
+
+CMakeFiles/algorithm_c.dir/data_structure/binarySortTree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/data_structure/binarySortTree.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\data_structure\binarySortTree.c > CMakeFiles\algorithm_c.dir\data_structure\binarySortTree.c.i
+
+CMakeFiles/algorithm_c.dir/data_structure/binarySortTree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/data_structure/binarySortTree.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\data_structure\binarySortTree.c -o CMakeFiles\algorithm_c.dir\data_structure\binarySortTree.c.s
+
+CMakeFiles/algorithm_c.dir/data_structure/circularLinkedList.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/data_structure/circularLinkedList.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/data_structure/circularLinkedList.c.obj: ../data_structure/circularLinkedList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/algorithm_c.dir/data_structure/circularLinkedList.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\data_structure\circularLinkedList.c.obj   -c F:\Git_Remote\Github\algorithm-c\data_structure\circularLinkedList.c
+
+CMakeFiles/algorithm_c.dir/data_structure/circularLinkedList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/data_structure/circularLinkedList.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\data_structure\circularLinkedList.c > CMakeFiles\algorithm_c.dir\data_structure\circularLinkedList.c.i
+
+CMakeFiles/algorithm_c.dir/data_structure/circularLinkedList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/data_structure/circularLinkedList.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\data_structure\circularLinkedList.c -o CMakeFiles\algorithm_c.dir\data_structure\circularLinkedList.c.s
+
+CMakeFiles/algorithm_c.dir/data_structure/circularQueque.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/data_structure/circularQueque.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/data_structure/circularQueque.c.obj: ../data_structure/circularQueque.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/algorithm_c.dir/data_structure/circularQueque.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\data_structure\circularQueque.c.obj   -c F:\Git_Remote\Github\algorithm-c\data_structure\circularQueque.c
+
+CMakeFiles/algorithm_c.dir/data_structure/circularQueque.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/data_structure/circularQueque.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\data_structure\circularQueque.c > CMakeFiles\algorithm_c.dir\data_structure\circularQueque.c.i
+
+CMakeFiles/algorithm_c.dir/data_structure/circularQueque.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/data_structure/circularQueque.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\data_structure\circularQueque.c -o CMakeFiles\algorithm_c.dir\data_structure\circularQueque.c.s
+
+CMakeFiles/algorithm_c.dir/data_structure/doubleLinkedList.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/data_structure/doubleLinkedList.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/data_structure/doubleLinkedList.c.obj: ../data_structure/doubleLinkedList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/algorithm_c.dir/data_structure/doubleLinkedList.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\data_structure\doubleLinkedList.c.obj   -c F:\Git_Remote\Github\algorithm-c\data_structure\doubleLinkedList.c
+
+CMakeFiles/algorithm_c.dir/data_structure/doubleLinkedList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/data_structure/doubleLinkedList.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\data_structure\doubleLinkedList.c > CMakeFiles\algorithm_c.dir\data_structure\doubleLinkedList.c.i
+
+CMakeFiles/algorithm_c.dir/data_structure/doubleLinkedList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/data_structure/doubleLinkedList.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\data_structure\doubleLinkedList.c -o CMakeFiles\algorithm_c.dir\data_structure\doubleLinkedList.c.s
+
+CMakeFiles/algorithm_c.dir/data_structure/linearLinkedList.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/data_structure/linearLinkedList.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/data_structure/linearLinkedList.c.obj: ../data_structure/linearLinkedList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/algorithm_c.dir/data_structure/linearLinkedList.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\data_structure\linearLinkedList.c.obj   -c F:\Git_Remote\Github\algorithm-c\data_structure\linearLinkedList.c
+
+CMakeFiles/algorithm_c.dir/data_structure/linearLinkedList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/data_structure/linearLinkedList.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\data_structure\linearLinkedList.c > CMakeFiles\algorithm_c.dir\data_structure\linearLinkedList.c.i
+
+CMakeFiles/algorithm_c.dir/data_structure/linearLinkedList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/data_structure/linearLinkedList.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\data_structure\linearLinkedList.c -o CMakeFiles\algorithm_c.dir\data_structure\linearLinkedList.c.s
+
+CMakeFiles/algorithm_c.dir/data_structure/linearQueue.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/data_structure/linearQueue.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/data_structure/linearQueue.c.obj: ../data_structure/linearQueue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/algorithm_c.dir/data_structure/linearQueue.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\data_structure\linearQueue.c.obj   -c F:\Git_Remote\Github\algorithm-c\data_structure\linearQueue.c
+
+CMakeFiles/algorithm_c.dir/data_structure/linearQueue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/data_structure/linearQueue.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\data_structure\linearQueue.c > CMakeFiles\algorithm_c.dir\data_structure\linearQueue.c.i
+
+CMakeFiles/algorithm_c.dir/data_structure/linearQueue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/data_structure/linearQueue.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\data_structure\linearQueue.c -o CMakeFiles\algorithm_c.dir\data_structure\linearQueue.c.s
+
+CMakeFiles/algorithm_c.dir/data_structure/linearStack.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/data_structure/linearStack.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/data_structure/linearStack.c.obj: ../data_structure/linearStack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/algorithm_c.dir/data_structure/linearStack.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\data_structure\linearStack.c.obj   -c F:\Git_Remote\Github\algorithm-c\data_structure\linearStack.c
+
+CMakeFiles/algorithm_c.dir/data_structure/linearStack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/data_structure/linearStack.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\data_structure\linearStack.c > CMakeFiles\algorithm_c.dir\data_structure\linearStack.c.i
+
+CMakeFiles/algorithm_c.dir/data_structure/linearStack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/data_structure/linearStack.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\data_structure\linearStack.c -o CMakeFiles\algorithm_c.dir\data_structure\linearStack.c.s
+
+CMakeFiles/algorithm_c.dir/data_structure/orthogonalList.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/data_structure/orthogonalList.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/data_structure/orthogonalList.c.obj: ../data_structure/orthogonalList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/algorithm_c.dir/data_structure/orthogonalList.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\data_structure\orthogonalList.c.obj   -c F:\Git_Remote\Github\algorithm-c\data_structure\orthogonalList.c
+
+CMakeFiles/algorithm_c.dir/data_structure/orthogonalList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/data_structure/orthogonalList.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\data_structure\orthogonalList.c > CMakeFiles\algorithm_c.dir\data_structure\orthogonalList.c.i
+
+CMakeFiles/algorithm_c.dir/data_structure/orthogonalList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/data_structure/orthogonalList.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\data_structure\orthogonalList.c -o CMakeFiles\algorithm_c.dir\data_structure\orthogonalList.c.s
+
+CMakeFiles/algorithm_c.dir/data_structure/queue.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/data_structure/queue.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/data_structure/queue.c.obj: ../data_structure/queue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/algorithm_c.dir/data_structure/queue.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\data_structure\queue.c.obj   -c F:\Git_Remote\Github\algorithm-c\data_structure\queue.c
+
+CMakeFiles/algorithm_c.dir/data_structure/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/data_structure/queue.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\data_structure\queue.c > CMakeFiles\algorithm_c.dir\data_structure\queue.c.i
+
+CMakeFiles/algorithm_c.dir/data_structure/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/data_structure/queue.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\data_structure\queue.c -o CMakeFiles\algorithm_c.dir\data_structure\queue.c.s
+
+CMakeFiles/algorithm_c.dir/data_structure/sequenceLinkedList.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/data_structure/sequenceLinkedList.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/data_structure/sequenceLinkedList.c.obj: ../data_structure/sequenceLinkedList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/algorithm_c.dir/data_structure/sequenceLinkedList.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\data_structure\sequenceLinkedList.c.obj   -c F:\Git_Remote\Github\algorithm-c\data_structure\sequenceLinkedList.c
+
+CMakeFiles/algorithm_c.dir/data_structure/sequenceLinkedList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/data_structure/sequenceLinkedList.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\data_structure\sequenceLinkedList.c > CMakeFiles\algorithm_c.dir\data_structure\sequenceLinkedList.c.i
+
+CMakeFiles/algorithm_c.dir/data_structure/sequenceLinkedList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/data_structure/sequenceLinkedList.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\data_structure\sequenceLinkedList.c -o CMakeFiles\algorithm_c.dir\data_structure\sequenceLinkedList.c.s
+
+CMakeFiles/algorithm_c.dir/data_structure/sequenceStack.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/data_structure/sequenceStack.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/data_structure/sequenceStack.c.obj: ../data_structure/sequenceStack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/algorithm_c.dir/data_structure/sequenceStack.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\data_structure\sequenceStack.c.obj   -c F:\Git_Remote\Github\algorithm-c\data_structure\sequenceStack.c
+
+CMakeFiles/algorithm_c.dir/data_structure/sequenceStack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/data_structure/sequenceStack.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\data_structure\sequenceStack.c > CMakeFiles\algorithm_c.dir\data_structure\sequenceStack.c.i
+
+CMakeFiles/algorithm_c.dir/data_structure/sequenceStack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/data_structure/sequenceStack.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\data_structure\sequenceStack.c -o CMakeFiles\algorithm_c.dir\data_structure\sequenceStack.c.s
+
+CMakeFiles/algorithm_c.dir/data_structure/test.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/data_structure/test.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/data_structure/test.c.obj: ../data_structure/test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/algorithm_c.dir/data_structure/test.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\data_structure\test.c.obj   -c F:\Git_Remote\Github\algorithm-c\data_structure\test.c
+
+CMakeFiles/algorithm_c.dir/data_structure/test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/data_structure/test.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\data_structure\test.c > CMakeFiles\algorithm_c.dir\data_structure\test.c.i
+
+CMakeFiles/algorithm_c.dir/data_structure/test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/data_structure/test.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\data_structure\test.c -o CMakeFiles\algorithm_c.dir\data_structure\test.c.s
+
+CMakeFiles/algorithm_c.dir/data_structure/threadedBinaryLikedList.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/data_structure/threadedBinaryLikedList.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/data_structure/threadedBinaryLikedList.c.obj: ../data_structure/threadedBinaryLikedList.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/algorithm_c.dir/data_structure/threadedBinaryLikedList.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\data_structure\threadedBinaryLikedList.c.obj   -c F:\Git_Remote\Github\algorithm-c\data_structure\threadedBinaryLikedList.c
+
+CMakeFiles/algorithm_c.dir/data_structure/threadedBinaryLikedList.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/data_structure/threadedBinaryLikedList.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\data_structure\threadedBinaryLikedList.c > CMakeFiles\algorithm_c.dir\data_structure\threadedBinaryLikedList.c.i
+
+CMakeFiles/algorithm_c.dir/data_structure/threadedBinaryLikedList.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/data_structure/threadedBinaryLikedList.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\data_structure\threadedBinaryLikedList.c -o CMakeFiles\algorithm_c.dir\data_structure\threadedBinaryLikedList.c.s
+
+CMakeFiles/algorithm_c.dir/practice/practice.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/practice/practice.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/practice/practice.c.obj: ../practice/practice.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/algorithm_c.dir/practice/practice.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\practice\practice.c.obj   -c F:\Git_Remote\Github\algorithm-c\practice\practice.c
+
+CMakeFiles/algorithm_c.dir/practice/practice.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/practice/practice.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\practice\practice.c > CMakeFiles\algorithm_c.dir\practice\practice.c.i
+
+CMakeFiles/algorithm_c.dir/practice/practice.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/practice/practice.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\practice\practice.c -o CMakeFiles\algorithm_c.dir\practice\practice.c.s
+
+CMakeFiles/algorithm_c.dir/main2.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/main2.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
+CMakeFiles/algorithm_c.dir/main2.c.obj: ../main2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/algorithm_c.dir/main2.c.obj"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\main2.c.obj   -c F:\Git_Remote\Github\algorithm-c\main2.c
+
+CMakeFiles/algorithm_c.dir/main2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/algorithm_c.dir/main2.c.i"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\Git_Remote\Github\algorithm-c\main2.c > CMakeFiles\algorithm_c.dir\main2.c.i
+
+CMakeFiles/algorithm_c.dir/main2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/algorithm_c.dir/main2.c.s"
+	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\Git_Remote\Github\algorithm-c\main2.c -o CMakeFiles\algorithm_c.dir\main2.c.s
+
 CMakeFiles/algorithm_c.dir/main.c.obj: CMakeFiles/algorithm_c.dir/flags.make
+CMakeFiles/algorithm_c.dir/main.c.obj: CMakeFiles/algorithm_c.dir/includes_C.rsp
 CMakeFiles/algorithm_c.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/algorithm_c.dir/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/algorithm_c.dir/main.c.obj"
 	E:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\algorithm_c.dir\main.c.obj   -c F:\Git_Remote\Github\algorithm-c\main.c
 
 CMakeFiles/algorithm_c.dir/main.c.i: cmake_force
@@ -71,17 +660,101 @@ CMakeFiles/algorithm_c.dir/main.c.s: cmake_force
 
 # Object files for target algorithm_c
 algorithm_c_OBJECTS = \
+"CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-1-queue.c.obj" \
+"CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-2-stack.c.obj" \
+"CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-3-QueueAndStack.c.obj" \
+"CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-4-Link_List.c.obj" \
+"CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-5-Simulation_Link.c.obj" \
+"CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-1-dfs.c.obj" \
+"CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-2-dfs_maze.c.obj" \
+"CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-3-bfs_maze.c.obj" \
+"CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-4-Bomb_man.c.obj" \
+"CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-5-Island_Adventure.c.obj" \
+"CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-6-water_pip.c.obj" \
+"CMakeFiles/algorithm_c.dir/Aha_Algorithm/5-1-dfs_bfs.c.obj" \
+"CMakeFiles/algorithm_c.dir/algorithm/base.c.obj" \
+"CMakeFiles/algorithm_c.dir/algorithm/binarySearch.c.obj" \
+"CMakeFiles/algorithm_c.dir/algorithm/bubbleSort.c.obj" \
+"CMakeFiles/algorithm_c.dir/algorithm/find_k.c.obj" \
+"CMakeFiles/algorithm_c.dir/algorithm/heapSort.c.obj" \
+"CMakeFiles/algorithm_c.dir/algorithm/insertSort.c.obj" \
+"CMakeFiles/algorithm_c.dir/algorithm/mergingSort.c.obj" \
+"CMakeFiles/algorithm_c.dir/algorithm/quickSort.c.obj" \
+"CMakeFiles/algorithm_c.dir/algorithm/selectSort.c.obj" \
+"CMakeFiles/algorithm_c.dir/algorithm/shellSort.c.obj" \
+"CMakeFiles/algorithm_c.dir/data_structure/adjacencyList.c.obj" \
+"CMakeFiles/algorithm_c.dir/data_structure/adjacencyListTest.c.obj" \
+"CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatricTest.c.obj" \
+"CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatrix.c.obj" \
+"CMakeFiles/algorithm_c.dir/data_structure/binaryLinkedList.c.obj" \
+"CMakeFiles/algorithm_c.dir/data_structure/binarySortTree.c.obj" \
+"CMakeFiles/algorithm_c.dir/data_structure/circularLinkedList.c.obj" \
+"CMakeFiles/algorithm_c.dir/data_structure/circularQueque.c.obj" \
+"CMakeFiles/algorithm_c.dir/data_structure/doubleLinkedList.c.obj" \
+"CMakeFiles/algorithm_c.dir/data_structure/linearLinkedList.c.obj" \
+"CMakeFiles/algorithm_c.dir/data_structure/linearQueue.c.obj" \
+"CMakeFiles/algorithm_c.dir/data_structure/linearStack.c.obj" \
+"CMakeFiles/algorithm_c.dir/data_structure/orthogonalList.c.obj" \
+"CMakeFiles/algorithm_c.dir/data_structure/queue.c.obj" \
+"CMakeFiles/algorithm_c.dir/data_structure/sequenceLinkedList.c.obj" \
+"CMakeFiles/algorithm_c.dir/data_structure/sequenceStack.c.obj" \
+"CMakeFiles/algorithm_c.dir/data_structure/test.c.obj" \
+"CMakeFiles/algorithm_c.dir/data_structure/threadedBinaryLikedList.c.obj" \
+"CMakeFiles/algorithm_c.dir/practice/practice.c.obj" \
+"CMakeFiles/algorithm_c.dir/main2.c.obj" \
 "CMakeFiles/algorithm_c.dir/main.c.obj"
 
 # External object files for target algorithm_c
 algorithm_c_EXTERNAL_OBJECTS =
 
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-1-queue.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-2-stack.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-3-QueueAndStack.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-4-Link_List.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/Aha_Algorithm/2-5-Simulation_Link.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-1-dfs.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-2-dfs_maze.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-3-bfs_maze.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-4-Bomb_man.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-5-Island_Adventure.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/Aha_Algorithm/4-6-water_pip.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/Aha_Algorithm/5-1-dfs_bfs.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/algorithm/base.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/algorithm/binarySearch.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/algorithm/bubbleSort.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/algorithm/find_k.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/algorithm/heapSort.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/algorithm/insertSort.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/algorithm/mergingSort.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/algorithm/quickSort.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/algorithm/selectSort.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/algorithm/shellSort.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/data_structure/adjacencyList.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/data_structure/adjacencyListTest.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatricTest.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/data_structure/adjacencyMatrix.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/data_structure/binaryLinkedList.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/data_structure/binarySortTree.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/data_structure/circularLinkedList.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/data_structure/circularQueque.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/data_structure/doubleLinkedList.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/data_structure/linearLinkedList.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/data_structure/linearQueue.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/data_structure/linearStack.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/data_structure/orthogonalList.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/data_structure/queue.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/data_structure/sequenceLinkedList.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/data_structure/sequenceStack.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/data_structure/test.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/data_structure/threadedBinaryLikedList.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/practice/practice.c.obj
+algorithm_c.exe: CMakeFiles/algorithm_c.dir/main2.c.obj
 algorithm_c.exe: CMakeFiles/algorithm_c.dir/main.c.obj
 algorithm_c.exe: CMakeFiles/algorithm_c.dir/build.make
 algorithm_c.exe: CMakeFiles/algorithm_c.dir/linklibs.rsp
 algorithm_c.exe: CMakeFiles/algorithm_c.dir/objects1.rsp
 algorithm_c.exe: CMakeFiles/algorithm_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable algorithm_c.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\Git_Remote\Github\algorithm-c\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Linking C executable algorithm_c.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\algorithm_c.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

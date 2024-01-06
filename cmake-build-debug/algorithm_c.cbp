@@ -24,6 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm"/>
 					<Add directory="E:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
 					<Add directory="E:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
 					<Add directory="E:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
@@ -42,6 +43,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm"/>
 					<Add directory="E:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
 					<Add directory="E:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
 					<Add directory="E:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
@@ -74,7 +76,172 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/2-1-queue.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/2-1-queue.h">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/2-2-stack.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/2-2-stack.h">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/2-3-QueueAndStack.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/2-3-QueueAndStack.h">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/2-4-Link_List.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/2-4-Link_List.h">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/2-5-Simulation_Link.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/2-5-Simulation_Link.h">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/4-1-dfs.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/4-1-dfs.h">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/4-2-dfs_maze.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/4-2-dfs_maze.h">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/4-3-bfs_maze.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/4-3-bfs_maze.h">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/4-4-Bomb_man.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/4-4-Bomb_man.h">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/4-5-Island_Adventure.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/4-5-Island_Adventure.h">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/4-6-water_pip.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/4-6-water_pip.h">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/5-1-dfs_bfs.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/Aha_Algorithm/5-1-dfs_bfs.h">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/algorithm/base.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/algorithm/binarySearch.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/algorithm/bubbleSort.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/algorithm/find_k.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/algorithm/heapSort.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/algorithm/insertSort.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/algorithm/mergingSort.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/algorithm/quickSort.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/algorithm/selectSort.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/algorithm/shellSort.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure/adjacencyList.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure/adjacencyListTest.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure/adjacencyMatricTest.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure/adjacencyMatrix.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure/binaryLinkedList.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure/binarySortTree.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure/circularLinkedList.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure/circularQueque.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure/doubleLinkedList.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure/linearLinkedList.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure/linearQueue.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure/linearStack.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure/orthogonalList.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure/queue.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure/sequenceLinkedList.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure/sequenceStack.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure/test.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure/threadedBinaryLikedList.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/data_structure2/linkList.h">
+			<Option target="algorithm_c"/>
+		</Unit>
 		<Unit filename="F:/Git_Remote/Github/algorithm-c/main.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/main2.c">
+			<Option target="algorithm_c"/>
+		</Unit>
+		<Unit filename="F:/Git_Remote/Github/algorithm-c/practice/practice.c">
 			<Option target="algorithm_c"/>
 		</Unit>
 		<Unit filename="F:/Git_Remote/Github/algorithm-c/CMakeLists.txt">

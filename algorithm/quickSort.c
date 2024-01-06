@@ -82,7 +82,7 @@ static void QSort1 (SqList *L, int low, int high) {
  * 交换序列表中子表的记录，使枢轴记录到位，并返回其所在的位置
  * 此时在它之前的记录均不大于它
  */
-static int Partition (SqList *L, int low, int high) {
+static int Partition2 (SqList *L, int low, int high) {
     int privotkey;
 
     privotkey = L->r[low];    // 用子表的第一个记录作为枢轴记录

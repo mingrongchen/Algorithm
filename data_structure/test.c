@@ -14,6 +14,12 @@ typedef struct {
     int numEdges;
 } MGraph;
 
+typedef int boolean;
+#define FALSE -1
+#define TRUE 1
+EdgeType visited[MAXVEX];    // 节点是否访问数组
+
+
 /* 邻接矩阵深度优先算法
  * G：邻接表
  * i: 图节点
@@ -31,10 +37,6 @@ static void DFS(MGraph G, int i) {
     }
 }
 
-typedef int boolean;
-#define FALSE -1
-#define TRUE 1
-EdgeType visited[MAXVEX];    // 节点是否访问数组
 static void DFSTraverse(MGraph G) {
     int i;
 
@@ -51,6 +53,23 @@ static void DFSTraverse(MGraph G) {
     }
 }
 
+
+/* 邻接矩阵深度优先算法
+ * G：邻接表
+ * i: 图节点
+ */
+static void DFS2(MGraph G, int i) {
+    int j;
+    visited[i] = TRUE;    // 将访问节点置为已访问
+    printf("%c ", G.vertexes[i]);    // 打印顶点
+
+    for (j = 0; j < G.numVertexes; j++) {
+        // 顶点邻接边存在，且邻接顶点未被访问
+        if (G.arcs[i][j] == 1 && !visited[j]) {
+            DFS(G, j);    // 对访问邻接顶点递归调用
+        }
+    }
+}
 
 
 static void test() {
